@@ -4,38 +4,80 @@ import { ChangeEvent } from "react"
 
 import FilterRadioGroup from "@modules/common/components/filter-radio-group"
 
-export type SortOptions = "price_asc" | "price_desc" | "created_at"
+export type SortOptions =
+  | "all"
+  | "cozinha"
+  | "decoracao"
+  | "eletrodomesticos"
+  | "escritorio"
+  | "iluminacao"
+  | "organizacao"
+  | "plantas"
+  | "prateleiras"
+  | "outros"
 
 type SortProductsProps = {
   sortBy: SortOptions
-  setQueryParams: (name: string, value: SortOptions) => void
-  'data-testid'?: string
+  setQueryParams: (value: SortOptions) => void
+  "data-testid"?: string
 }
 
 const sortOptions = [
   {
-    value: "created_at",
-    label: "Latest Arrivals",
+    value: "all",
+    label: "Todos os produtos",
   },
   {
-    value: "price_asc",
-    label: "Price: Low -> High",
+    value: "cozinha",
+    label: "Cozinha",
   },
   {
-    value: "price_desc",
-    label: "Price: High -> Low",
+    value: "decoracao",
+    label: "Decoração",
+  },
+  {
+    value: "eletrodomesticos",
+    label: "Eletrodomésticos",
+  },
+  {
+    value: "escritorio",
+    label: "Escritório",
+  },
+  {
+    value: "iluminacao",
+    label: "Iluminação",
+  },
+  {
+    value: "organizacao",
+    label: "Organização",
+  },
+  {
+    value: "plantas",
+    label: "Plantas",
+  },
+  {
+    value: "prateleiras",
+    label: "Prateleiras",
+  },
+  {
+    value: "outros",
+    label: "Outros",
   },
 ]
 
-const SortProducts = ({ 'data-testid': dataTestId, sortBy, setQueryParams }: SortProductsProps) => {
+const SortProducts = ({
+  "data-testid": dataTestId,
+  sortBy,
+  setQueryParams,
+}: SortProductsProps) => {
   const handleChange = (e: ChangeEvent<HTMLButtonElement>) => {
     const newSortBy = e.target.value as SortOptions
-    setQueryParams("sortBy", newSortBy)
+    setQueryParams(newSortBy)
   }
 
   return (
     <FilterRadioGroup
-      title="Sort by"
+      title="Categorias"
       items={sortOptions}
       value={sortBy}
       handleChange={handleChange}

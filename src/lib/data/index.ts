@@ -495,7 +495,7 @@ export const getProductsListWithSort = cache(
   async function getProductsListWithSort({
     page = 0,
     queryParams,
-    sortBy = "created_at",
+    sortBy = "all",
     countryCode,
   }: {
     page?: number

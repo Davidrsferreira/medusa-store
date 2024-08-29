@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const metadata = {
-    title: `${collection.title} | Medusa Store`,
+    title: `${collection.title} | Back2Brazil Shop`,
     description: `${collection.title} collection`,
   } as Metadata
 
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function CollectionPage({ params, searchParams }: Props) {
-  const { sortBy, page } = searchParams
+  const { page } = searchParams
 
   const collection = await getCollectionByHandle(params.handle).then(
     (collection) => collection
@@ -74,7 +74,7 @@ export default async function CollectionPage({ params, searchParams }: Props) {
     <CollectionTemplate
       collection={collection}
       page={page}
-      sortBy={sortBy}
+      sortBy={params.handle as SortOptions}
       countryCode={params.countryCode}
     />
   )

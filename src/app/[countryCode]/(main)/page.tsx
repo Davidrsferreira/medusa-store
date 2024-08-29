@@ -17,7 +17,7 @@ const getCollectionsWithProducts = cache(
   async (
     countryCode: string
   ): Promise<ProductCollectionWithPreviews[] | null> => {
-    const { collections } = await getCollectionsList(0, 3)
+    const { collections } = await getCollectionsList(0, 4)
 
     if (!collections) {
       return null
@@ -28,7 +28,7 @@ const getCollectionsWithProducts = cache(
     await Promise.all(
       collectionIds.map((id) =>
         getProductsList({
-          queryParams: { collection_id: [id] },
+          queryParams: { collection_id: [id], limit: 4 },
           countryCode,
         })
       )
@@ -69,11 +69,9 @@ export default async function Home({
   return (
     <>
       <Hero />
-      <div className="py-12">
-        <ul className="flex flex-col gap-x-6">
-          <FeaturedProducts collections={collections} region={region} />
-        </ul>
-      </div>
+      <ul className="flex flex-col gap-x-6">
+        <FeaturedProducts collections={collections} region={region} />
+      </ul>
     </>
   )
 }
