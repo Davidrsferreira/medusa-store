@@ -20,6 +20,7 @@ import { ProductCategoryWithChildren, ProductPreviewType } from "types/global"
 import { medusaClient } from "@lib/config"
 import medusaError from "@lib/util/medusa-error"
 import { cookies } from "next/headers"
+import database from "../../db/database.json"
 
 const emptyResponse = {
   response: { products: [], count: 0 },
@@ -48,6 +49,16 @@ const getMedusaHeaders = (tags: string[] = []) => {
   }
 
   return headers
+}
+
+export const getCollectionsList = async function (): Promise<{
+  collections: ProductCollection[]
+}> {
+  const collections = database.collections as ProductCollection[]
+
+  return {
+    collections,
+  }
 }
 
 // Cart actions
@@ -536,36 +547,6 @@ export const getProductsListWithSort = cache(
   }
 )
 
-export const getHomepageProducts = cache(async function getHomepageProducts({
-  collectionHandles,
-  currencyCode,
-  countryCode,
-}: {
-  collectionHandles?: string[]
-  currencyCode: string
-  countryCode: string
-}) {
-  const collectionProductsMap = new Map<string, ProductPreviewType[]>()
-
-  const { collections } = await getCollectionsList(0, 3)
-
-  if (!collectionHandles) {
-    collectionHandles = collections.map((collection) => collection.handle)
-  }
-
-  for (const handle of collectionHandles) {
-    const products = await getProductsByCollectionHandle({
-      handle,
-      currencyCode,
-      countryCode,
-      limit: 3,
-    })
-    collectionProductsMap.set(handle, products.response.products)
-  }
-
-  return collectionProductsMap
-})
-
 // Collection actions
 export const retrieveCollection = cache(async function (id: string) {
   return medusaClient.collections
@@ -578,25 +559,6 @@ export const retrieveCollection = cache(async function (id: string) {
     .catch((err) => {
       throw err
     })
-})
-
-export const getCollectionsList = cache(async function (
-  offset: number = 0,
-  limit: number = 100
-): Promise<{ collections: ProductCollection[]; count: number }> {
-  const collections = await medusaClient.collections
-    .list({ limit, offset }, { next: { tags: ["collections"] } })
-    .then(({ collections }) => collections)
-    .catch((err) => {
-      throw err
-    })
-
-  const count = collections.length
-
-  return {
-    collections,
-    count,
-  }
 })
 
 export const getCollectionByHandle = cache(async function (

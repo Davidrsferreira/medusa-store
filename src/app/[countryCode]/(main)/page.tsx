@@ -17,13 +17,13 @@ const getCollectionsWithProducts = cache(
   async (
     countryCode: string
   ): Promise<ProductCollectionWithPreviews[] | null> => {
-    const { collections } = await getCollectionsList(0, 4)
+    const { collections } = await getCollectionsList();
 
     if (!collections) {
       return null
     }
 
-    const collectionIds = collections.map((collection) => collection.id)
+    const collectionIds = collections.slice(0, 4).map((collection) => collection.id)
 
     await Promise.all(
       collectionIds.map((id) =>
