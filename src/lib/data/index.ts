@@ -13,7 +13,6 @@ import {
 import { PricedProduct } from "@medusajs/medusa/dist/types/pricing"
 import { cache } from "react"
 
-import sortProducts from "@lib/util/sort-products"
 import transformProductPreview from "@lib/util/transform-product-preview"
 import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
 import { ProductCategoryWithChildren, ProductPreviewType } from "types/global"
@@ -520,13 +519,11 @@ export const getProductsListWithSort = cache(
       countryCode,
     })
 
-    const sortedProducts = sortProducts(products, sortBy)
-
     const pageParam = (page - 1) * limit
 
     const nextPage = count > pageParam + limit ? pageParam + limit : null
 
-    const paginatedProducts = sortedProducts.slice(pageParam, pageParam + limit)
+    const paginatedProducts = products.slice(pageParam, pageParam + limit)
 
     return {
       response: {
