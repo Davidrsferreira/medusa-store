@@ -1,7 +1,6 @@
-import { Product } from "@medusajs/medusa"
 import { Metadata } from "next"
 
-import { getCollectionsList, getProductsList, getRegion } from "@lib/data"
+import { getCollectionsList } from "@lib/data"
 import FeaturedProducts from "@modules/home/components/featured-products"
 import Hero from "@modules/home/components/hero"
 import { ProductCollectionWithPreviews } from "types/global"
@@ -14,55 +13,26 @@ export const metadata: Metadata = {
 }
 
 const getCollectionsWithProducts = cache(
-  async (
-    countryCode: string
-  ): Promise<ProductCollectionWithPreviews[] | null> => {
-    const { collections } = await getCollectionsList();
+  async (): Promise<ProductCollectionWithPreviews[] | null> => {
+    const { collections } = await getCollectionsList()
 
     if (!collections) {
       return null
     }
 
-    const collectionIds = collections.slice(0, 4).map((collection) => collection.id)
-
-    await Promise.all(
-      collectionIds.map((id) =>
-        getProductsList({
-          queryParams: { collection_id: [id], limit: 4 },
-          countryCode,
-        })
-      )
-    ).then((responses) =>
-      responses.forEach(({ response, queryParams }) => {
-        let collection
-
-        if (collections) {
-          collection = collections.find(
-            (collection) => collection.id === queryParams?.collection_id?.[0]
-          )
-        }
-
-        if (!collection) {
-          return
-        }
-
-        collection.products = response.products as unknown as Product[]
-      })
+    const featuredCollections = collections.slice(0, 4)
+    featuredCollections.map(
+      (collection) => (collection.products = collection.products.slice(0, 4))
     )
 
-    return collections as unknown as ProductCollectionWithPreviews[]
+    return featuredCollections as unknown as ProductCollectionWithPreviews[]
   }
 )
 
-export default async function Home({
-  params: { countryCode },
-}: {
-  params: { countryCode: string }
-}) {
-  const collections = await getCollectionsWithProducts(countryCode)
-  const region = await getRegion(countryCode)
+export default async function Home() {
+  const collections = await getCollectionsWithProducts()
 
-  if (!collections || !region) {
+  if (!collections) {
     return null
   }
 
@@ -70,7 +40,7 @@ export default async function Home({
     <>
       <Hero />
       <ul className="flex flex-col gap-x-6">
-        <FeaturedProducts collections={collections} region={region} />
+        <FeaturedProducts collections={collections} />
       </ul>
     </>
   )

@@ -1,6 +1,5 @@
 import { getProductsListWithSort, getRegion } from "@lib/data"
 import ProductPreview from "@modules/products/components/product-preview"
-import { Pagination } from "@modules/store/components/pagination"
 import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
 
 const PRODUCT_LIMIT = 12
@@ -27,11 +26,7 @@ export default async function PaginatedProducts({
   productsIds?: string[]
   countryCode: string
 }) {
-  const region = await getRegion(countryCode)
 
-  if (!region) {
-    return null
-  }
 
   const queryParams: PaginatedProductsParams = {
     limit: PRODUCT_LIMIT,
@@ -50,7 +45,7 @@ export default async function PaginatedProducts({
   }
 
   const {
-    response: { products, count },
+    response: { products },
   } = await getProductsListWithSort({
     page,
     queryParams,
@@ -58,20 +53,17 @@ export default async function PaginatedProducts({
     countryCode,
   })
 
-  const totalPages = Math.ceil(count / PRODUCT_LIMIT)
-
   return (
     <>
       <ul className="grid grid-cols-2 w-full small:grid-cols-3 medium:grid-cols-4 gap-x-6 gap-y-8" data-testid="products-list">
         {products.map((p) => {
           return (
             <li key={p.id}>
-              <ProductPreview productPreview={p} region={region} />
+              <ProductPreview productPreview={p} />
             </li>
           )
         })}
       </ul>
-      {totalPages > 1 && <Pagination data-testid="product-pagination" page={page} totalPages={totalPages} />}
     </>
   )
 }

@@ -4,7 +4,6 @@ import {
   Region,
   StoreGetProductsParams,
   StorePostAuthReq,
-  StorePostCartsCartReq,
   StorePostCustomersCustomerAddressesAddressReq,
   StorePostCustomersCustomerAddressesReq,
   StorePostCustomersCustomerReq,
@@ -54,11 +53,50 @@ const getMedusaHeaders = (tags: string[] = []) => {
 export const getCollectionsList = async function (): Promise<{
   collections: ProductCollection[]
 }> {
-  const collections = database.collections as ProductCollection[]
+  const dbcollections = database.collections as unknown as ProductCollection[]
 
   return {
-    collections,
+    collections: dbcollections,
   }
+}
+
+export const getProductsList = async function (): Promise<{
+  products: ProductPreviewType[]
+}> {
+  const products = database.products as unknown as PricedProduct[]
+
+  const transformedProducts = (await getTransformedProducts(products)).products
+
+  return {
+    products: transformedProducts,
+  }
+}
+
+export const getProductsListByCollection = async function (
+  collectionId: string
+): Promise<{
+  products: ProductPreviewType[]
+}> {
+  const list = database.products.filter(
+    (x) => x.collection_id == collectionId
+  ) as unknown as PricedProduct[]
+
+  const transformedProducts = (await getTransformedProducts(list)).products
+
+  return {
+    products: transformedProducts,
+  }
+}
+
+export const getTransformedProducts = async function (
+  list: PricedProduct[]
+): Promise<{ products: ProductPreviewType[] }> {
+
+  const products = list.map((product) => {
+    return transformProductPreview(product)
+  })
+
+  return { products }
 }
 
 // Cart actions
@@ -72,15 +110,6 @@ export async function createCart(data = {}) {
       console.log(err)
       return null
     })
-}
-
-export async function updateCart(cartId: string, data: StorePostCartsCartReq) {
-  const headers = getMedusaHeaders(["cart"])
-
-  return medusaClient.carts
-    .update(cartId, data, headers)
-    .then(({ cart }) => cart)
-    .catch((error) => medusaError(error))
 }
 
 export const getCart = cache(async function (cartId: string) {
@@ -400,36 +429,15 @@ export const getRegion = cache(async function (countryCode: string) {
   }
 })
 
-// Product actions
-export const getProductsById = cache(async function ({
-  ids,
-  regionId,
-}: {
-  ids: string[]
-  regionId: string
-}) {
-  const headers = getMedusaHeaders(["products"])
-
-  return medusaClient.products
-    .list({ id: ids, region_id: regionId }, headers)
-    .then(({ products }) => products)
-    .catch((err) => {
-      console.log(err)
-      return null
-    })
-})
-
 export const retrievePricedProductById = cache(async function ({
   id,
-  regionId,
 }: {
   id: string
-  regionId: string
 }) {
   const headers = getMedusaHeaders(["products"])
 
   return medusaClient.products
-    .retrieve(`${id}?region_id=${regionId}`, headers)
+    .retrieve(`${id}`, headers)
     .then(({ product }) => product)
     .catch((err) => {
       console.log(err)
@@ -452,55 +460,6 @@ export const getProductByHandle = cache(async function (
   return { product }
 })
 
-export const getProductsList = cache(async function ({
-  pageParam = 0,
-  queryParams,
-  countryCode,
-}: {
-  pageParam?: number
-  queryParams?: StoreGetProductsParams
-  countryCode: string
-}): Promise<{
-  response: { products: ProductPreviewType[]; count: number }
-  nextPage: number | null
-  queryParams?: StoreGetProductsParams
-}> {
-  const limit = queryParams?.limit || 12
-
-  const region = await getRegion(countryCode)
-
-  if (!region) {
-    return emptyResponse
-  }
-
-  const { products, count } = await medusaClient.products
-    .list(
-      {
-        limit,
-        offset: pageParam,
-        region_id: region.id,
-        ...queryParams,
-      },
-      { next: { tags: ["products"] } }
-    )
-    .then((res) => res)
-    .catch((err) => {
-      throw err
-    })
-
-  const transformedProducts = products.map((product) => {
-    return transformProductPreview(product, region!)
-  })
-
-  const nextPage = count > pageParam + 1 ? pageParam + 1 : null
-
-  return {
-    response: { products: transformedProducts, count },
-    nextPage,
-    queryParams,
-  }
-})
-
 export const getProductsListWithSort = cache(
   async function getProductsListWithSort({
     page = 0,
@@ -513,36 +472,20 @@ export const getProductsListWithSort = cache(
     sortBy?: SortOptions
     countryCode: string
   }): Promise<{
-    response: { products: ProductPreviewType[]; count: number }
-    nextPage: number | null
-    queryParams?: StoreGetProductsParams
+    response: { products: ProductPreviewType[] }
   }> {
     const limit = queryParams?.limit || 12
 
-    const {
-      response: { products, count },
-    } = await getProductsList({
-      pageParam: 0,
-      queryParams: {
-        ...queryParams,
-        limit: 100,
-      },
-      countryCode,
-    })
+    const { products } = await getProductsList()
 
     const pageParam = (page - 1) * limit
-
-    const nextPage = count > pageParam + limit ? pageParam + limit : null
 
     const paginatedProducts = products.slice(pageParam, pageParam + limit)
 
     return {
       response: {
         products: paginatedProducts,
-        count,
       },
-      nextPage,
-      queryParams,
     }
   }
 )
@@ -573,43 +516,6 @@ export const getCollectionByHandle = cache(async function (
 
   return collection
 })
-
-export const getProductsByCollectionHandle = cache(
-  async function getProductsByCollectionHandle({
-    pageParam = 0,
-    limit = 100,
-    handle,
-    countryCode,
-  }: {
-    pageParam?: number
-    handle: string
-    limit?: number
-    countryCode: string
-    currencyCode?: string
-  }): Promise<{
-    response: { products: ProductPreviewType[]; count: number }
-    nextPage: number | null
-  }> {
-    const { id } = await getCollectionByHandle(handle).then(
-      (collection) => collection
-    )
-
-    const { response, nextPage } = await getProductsList({
-      pageParam,
-      queryParams: { collection_id: [id], limit },
-      countryCode,
-    })
-      .then((res) => res)
-      .catch((err) => {
-        throw err
-      })
-
-    return {
-      response,
-      nextPage,
-    }
-  }
-)
 
 // Category actions
 export const listCategories = cache(async function () {
@@ -679,38 +585,5 @@ export const getCategoryByHandle = cache(async function (
 
   return {
     product_categories,
-  }
-})
-
-export const getProductsByCategoryHandle = cache(async function ({
-  pageParam = 0,
-  handle,
-  countryCode,
-}: {
-  pageParam?: number
-  handle: string
-  countryCode: string
-  currencyCode?: string
-}): Promise<{
-  response: { products: ProductPreviewType[]; count: number }
-  nextPage: number | null
-}> {
-  const { id } = await getCategoryByHandle([handle]).then(
-    (res) => res.product_categories[0]
-  )
-
-  const { response, nextPage } = await getProductsList({
-    pageParam,
-    queryParams: { category_id: [id] },
-    countryCode,
-  })
-    .then((res) => res)
-    .catch((err) => {
-      throw err
-    })
-
-  return {
-    response,
-    nextPage,
   }
 })
