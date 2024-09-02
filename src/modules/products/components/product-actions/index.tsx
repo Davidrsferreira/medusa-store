@@ -80,7 +80,7 @@ export default function ProductActions({
   return (
     <>
       <div className="flex flex-col gap-y-2" ref={actionsRef}>
-        <ProductPrice product={product} region={region} />
+        <ProductPrice price={1} />
         <Text className="txt-compact-small-plus text-ui-fg-subtle">
           Para comprar o item ou obter mais informações, por favor, solicite
           contacto.

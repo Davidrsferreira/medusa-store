@@ -13,7 +13,7 @@ import { PricedProduct } from "@medusajs/medusa/dist/types/pricing"
 import { cache } from "react"
 
 import transformProductPreview from "@lib/util/transform-product-preview"
-import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
+import { CollectionOptions } from "@modules/store/components/refinement-list/sort-products"
 import { ProductCategoryWithChildren, ProductPreviewType } from "types/global"
 
 import { medusaClient } from "@lib/config"
@@ -60,6 +60,16 @@ export const getCollectionsList = async function (): Promise<{
   }
 }
 
+export const getCollectionByHandle = cache(async function (
+  handle: string
+): Promise<ProductCollection> {
+  const collection = database.collections.find(
+    (x) => x.handle == handle
+  ) as unknown as ProductCollection
+
+  return collection
+})
+
 export const getProductsList = async function (): Promise<{
   products: ProductPreviewType[]
 }> {
@@ -77,11 +87,19 @@ export const getProductsListByCollection = async function (
 ): Promise<{
   products: ProductPreviewType[]
 }> {
-  const list = database.products.filter(
-    (x) => x.collection_id == collectionId
-  ) as unknown as PricedProduct[]
+  if (collectionId === "all") {
+    const products = database.products as unknown as PricedProduct[]
+    const transformedProducts = (await getTransformedProducts(products))
+      .products
+    return {
+      products: transformedProducts,
+    }
+  }
 
-  const transformedProducts = (await getTransformedProducts(list)).products
+  const products = database.collections.find((x) => x.id == collectionId)
+    ?.products as unknown as PricedProduct[]
+
+  const transformedProducts = (await getTransformedProducts(products)).products
 
   return {
     products: transformedProducts,
@@ -91,7 +109,6 @@ export const getProductsListByCollection = async function (
 export const getTransformedProducts = async function (
   list: PricedProduct[]
 ): Promise<{ products: ProductPreviewType[] }> {
-
   const products = list.map((product) => {
     return transformProductPreview(product)
   })
@@ -469,7 +486,7 @@ export const getProductsListWithSort = cache(
   }: {
     page?: number
     queryParams?: StoreGetProductsParams
-    sortBy?: SortOptions
+    sortBy?: CollectionOptions
     countryCode: string
   }): Promise<{
     response: { products: ProductPreviewType[] }
@@ -502,19 +519,6 @@ export const retrieveCollection = cache(async function (id: string) {
     .catch((err) => {
       throw err
     })
-})
-
-export const getCollectionByHandle = cache(async function (
-  handle: string
-): Promise<ProductCollection> {
-  const collection = await medusaClient.collections
-    .list({ handle: [handle] }, { next: { tags: ["collections"] } })
-    .then(({ collections }) => collections[0])
-    .catch((err) => {
-      throw err
-    })
-
-  return collection
 })
 
 // Category actions

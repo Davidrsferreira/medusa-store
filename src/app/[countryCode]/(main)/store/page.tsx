@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 
-import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
 import StoreTemplate from "@modules/store/templates"
 
 export const metadata: Metadata = {
@@ -8,20 +7,6 @@ export const metadata: Metadata = {
   description: "Explore all of our products.",
 }
 
-type Params = {
-  searchParams: {
-    sortBy?: SortOptions
-    page?: string
-  }
-  params: {
-    countryCode: string
-  }
-}
-
-export default async function StorePage({ searchParams, params }: Params) {
-  const { page } = searchParams
-
-  return (
-    <StoreTemplate sortBy="all" page={page} countryCode={params.countryCode} />
-  )
+export default async function StorePage() {
+  return <StoreTemplate collectionId="all" />
 }

@@ -1,11 +1,10 @@
 import { Text } from "@medusajs/ui"
 
-export default async function PreviewPrice({ price }: { price: number }) {
+export default async function PreviewPrice({ price }: { price: string }) {
   return (
     <>
       <Text
-        className="line-through text-ui-fg-muted"
-        data-testid="original-price"
+        className="text-ui-fg-muted"
       >
         {price}
       </Text>

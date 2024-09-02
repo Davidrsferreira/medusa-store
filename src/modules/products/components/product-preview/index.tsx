@@ -22,7 +22,17 @@ export default async function ProductPreview({
     return null
   }
 
-  const price = pricedProduct.variants[0].prices[0].amount
+  const amount = pricedProduct.variants[0].prices[0].amount
+
+
+  const formatPrice = (amount: number): string => {
+    const price = Intl.NumberFormat("pt-PT", {
+      style: "currency",
+      currency: "eur"
+    }).format(amount/100)
+
+    return price
+  }
 
   return (
     <LocalizedClientLink
@@ -40,7 +50,7 @@ export default async function ProductPreview({
             {productPreview.title}
           </Text>
           <div className="flex items-center gap-x-2">
-            <PreviewPrice price={price} />
+            <PreviewPrice price={formatPrice(amount)} />
           </div>
         </div>
       </div>

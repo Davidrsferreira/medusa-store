@@ -4,7 +4,7 @@ import { ChangeEvent } from "react"
 
 import FilterRadioGroup from "@modules/common/components/filter-radio-group"
 
-export type SortOptions =
+export type CollectionOptions =
   | "all"
   | "cozinha"
   | "decoracao"
@@ -17,12 +17,11 @@ export type SortOptions =
   | "outros"
 
 type SortProductsProps = {
-  sortBy: SortOptions
-  setQueryParams: (value: SortOptions) => void
-  "data-testid"?: string
+  collection: CollectionOptions
+  setQueryParams: (value: CollectionOptions) => void
 }
 
-const sortOptions = [
+const collectionOptions = [
   {
     value: "all",
     label: "Todos os produtos",
@@ -66,22 +65,20 @@ const sortOptions = [
 ]
 
 const SortProducts = ({
-  "data-testid": dataTestId,
-  sortBy,
+  collection: collection,
   setQueryParams,
 }: SortProductsProps) => {
   const handleChange = (e: ChangeEvent<HTMLButtonElement>) => {
-    const newSortBy = e.target.value as SortOptions
-    setQueryParams(newSortBy)
+    const newCollection = e.target.value as CollectionOptions
+    setQueryParams(newCollection)
   }
 
   return (
     <FilterRadioGroup
       title="Categorias"
-      items={sortOptions}
-      value={sortBy}
+      items={collectionOptions}
+      value={collection}
       handleChange={handleChange}
-      data-testid={dataTestId}
     />
   )
 }
