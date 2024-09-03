@@ -2,10 +2,9 @@ import { Text } from "@medusajs/ui"
 
 import { Product } from "types/global"
 
-import { getProductById } from "@lib/data"
+import { formatPrice, getProductById } from "@lib/data"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import Thumbnail from "../thumbnail"
-import PreviewPrice from "./price"
 
 export default async function ProductPreview({
   product,
@@ -20,17 +19,6 @@ export default async function ProductPreview({
 
   if (!product) {
     return null
-  }
-
-  const amount = product.price
-
-  const formatPrice = (amount: number): string => {
-    const price = Intl.NumberFormat("pt-PT", {
-      style: "currency",
-      currency: "eur",
-    }).format(amount)
-
-    return price
   }
 
   return (
@@ -49,7 +37,9 @@ export default async function ProductPreview({
             {productPreview.title}
           </Text>
           <div className="flex items-center gap-x-2">
-            <PreviewPrice price={formatPrice(amount)} />
+            <Text className="text-ui-fg-muted">
+              {formatPrice(product.price)}
+            </Text>
           </div>
         </div>
       </div>

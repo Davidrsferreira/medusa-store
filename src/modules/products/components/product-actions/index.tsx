@@ -2,17 +2,17 @@
 
 import { Button, Heading, Text } from "@medusajs/ui"
 import { useRef, useState } from "react"
-import ProductPrice from "../product-price"
 import Modal from "@modules/common/components/modal"
 import useToggleState from "@lib/hooks/use-toggle-state"
 import Input from "@modules/common/components/input"
 import { SubmitButton } from "@modules/checkout/components/submit-button"
 import emailjs from "@emailjs/browser"
 import { toast } from "react-toastify"
-import { ProductPreviewType } from "types/global"
+import { Product } from "types/global"
+import { formatPrice } from "@lib/data"
 
 type ProductActionsProps = {
-  product: ProductPreviewType
+  product: Product
 }
 
 export default function ProductActions({ product }: ProductActionsProps) {
@@ -68,7 +68,9 @@ export default function ProductActions({ product }: ProductActionsProps) {
   return (
     <>
       <div className="flex flex-col gap-y-2" ref={actionsRef}>
-        <ProductPrice price={product.price} />
+        <div className="flex flex-col text-ui-fg-base">
+          <span>{formatPrice(product.price)}</span>
+        </div>
         <Text className="txt-compact-small-plus text-ui-fg-subtle">
           Para comprar o item ou obter mais informações, por favor, solicite
           contacto.

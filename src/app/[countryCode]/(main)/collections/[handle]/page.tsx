@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
 
-import { getCollectionByHandle } from "@lib/data"
+import { getCollectionByHandle, getProductsByCollectionId } from "@lib/data"
 import CollectionTemplate from "@modules/collections/templates"
 
 type Props = {
@@ -10,6 +10,10 @@ type Props = {
 export default async function CollectionPage({ params }: Props) {
   const collection = await getCollectionByHandle(params.handle).then(
     (collection) => collection
+  )
+
+  await getProductsByCollectionId(collection.id).then(
+    (products) => (collection.products = products)
   )
 
   if (!collection) {

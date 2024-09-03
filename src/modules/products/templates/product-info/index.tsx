@@ -1,11 +1,11 @@
-import { PricedProduct } from "@medusajs/medusa/dist/types/pricing"
 import { Heading, Text } from "@medusajs/ui"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import Link from "next/link"
 import { ArrowUpRightMini } from "@medusajs/icons"
+import { Product } from "types/global"
 
 type ProductInfoProps = {
-  product: PricedProduct
+  product: Product
 }
 
 const ProductInfo = ({ product }: ProductInfoProps) => {
@@ -21,10 +21,10 @@ const ProductInfo = ({ product }: ProductInfoProps) => {
           </LocalizedClientLink>
           <p className="text-ui-fg-muted">/</p>
           <LocalizedClientLink
-            href={`/collections/${product.collection?.handle}`}
+            href={`/collections/${product.collectionId}`}
             className="gap-x-2 text-medium text-ui-fg-muted hover:text-ui-fg-subtle"
           >
-            {product.collection?.title}
+            {product.collectionTitle}
           </LocalizedClientLink>
         </div>
         <Heading

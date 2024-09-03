@@ -6,7 +6,7 @@ export default async function PaginatedProducts({
 }: {
   collectionId: string
 }) {
-  const { products } = await getProductsByCollectionId(collectionId)
+  const products = await getProductsByCollectionId(collectionId)
 
   return (
     <>

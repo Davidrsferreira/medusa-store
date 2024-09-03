@@ -8,9 +8,7 @@ type Props = {
 }
 
 const getProduct = async (handle: string) => {
-  const { product } = await getProductByHandle(handle).then(
-    (product) => product
-  )
+  const product = await getProductByHandle(handle).then((product) => product)
   return product
 }
 
