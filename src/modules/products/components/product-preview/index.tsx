@@ -1,35 +1,34 @@
 import { Text } from "@medusajs/ui"
 
-import { ProductPreviewType } from "types/global"
+import { Product } from "types/global"
 
-import { retrievePricedProductById } from "@lib/data"
+import { getProductById } from "@lib/data"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import Thumbnail from "../thumbnail"
 import PreviewPrice from "./price"
 
 export default async function ProductPreview({
-  productPreview,
+  product,
   isFeatured,
 }: {
-  productPreview: ProductPreviewType
+  product: Product
   isFeatured?: boolean
 }) {
-  const pricedProduct = await retrievePricedProductById({
-    id: productPreview.id,
-  }).then((product) => product)
+  const productPreview = await getProductById(product.id).then(
+    (product) => product
+  )
 
-  if (!pricedProduct) {
+  if (!product) {
     return null
   }
 
-  const amount = pricedProduct.variants[0].prices[0].amount
-
+  const amount = product.price
 
   const formatPrice = (amount: number): string => {
     const price = Intl.NumberFormat("pt-PT", {
       style: "currency",
-      currency: "eur"
-    }).format(amount/100)
+      currency: "eur",
+    }).format(amount)
 
     return price
   }

@@ -1,12 +1,12 @@
 "use client"
 
-import { Image as MedusaImage } from "@medusajs/medusa"
 import { Container } from "@medusajs/ui"
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Image } from "types/global"
 
 type ImageGalleryProps = {
-  images: MedusaImage[]
+  images: Image[]
 }
 
 const ImageGallery = ({ images }: ImageGalleryProps) => {

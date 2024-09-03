@@ -1,5 +1,3 @@
-import { Region } from "@medusajs/medusa"
-import { PricedProduct } from "@medusajs/medusa/dist/types/pricing"
 import React, { Suspense } from "react"
 
 import ImageGallery from "@modules/products/components/image-gallery"
@@ -8,16 +6,13 @@ import ProductTabs from "@modules/products/components/product-tabs"
 import ProductInfo from "@modules/products/templates/product-info"
 import { notFound } from "next/navigation"
 import ProductActionsWrapper from "./product-actions-wrapper"
+import { Product } from "types/global"
 
 type ProductTemplateProps = {
-  product: PricedProduct
-  region: Region
+  product: Product
 }
 
-const ProductTemplate: React.FC<ProductTemplateProps> = ({
-  product,
-  region,
-}) => {
+const ProductTemplate: React.FC<ProductTemplateProps> = ({ product }) => {
   if (!product || !product.id) {
     return notFound()
   }
@@ -36,10 +31,8 @@ const ProductTemplate: React.FC<ProductTemplateProps> = ({
           <ProductTabs product={product} />
         </div>
         <div className="flex flex-col small:sticky small:top-48 small:py-0 w-full py-8 gap-y-12 small:w-1/6">
-          <Suspense
-            fallback={<ProductActions product={product} region={region} />}
-          >
-            <ProductActionsWrapper id={product.id} region={region} />
+          <Suspense fallback={<ProductActions product={product} />}>
+            <ProductActionsWrapper id={product.id} />
           </Suspense>
         </div>
       </div>

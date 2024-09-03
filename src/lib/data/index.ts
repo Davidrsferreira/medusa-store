@@ -14,7 +14,12 @@ import { cache } from "react"
 
 import transformProductPreview from "@lib/util/transform-product-preview"
 import { CollectionOptions } from "@modules/store/components/refinement-list/sort-products"
-import { ProductCategoryWithChildren, ProductPreviewType } from "types/global"
+import {
+  Collection,
+  Product,
+  ProductCategoryWithChildren,
+  ProductPreviewType,
+} from "types/global"
 
 import { medusaClient } from "@lib/config"
 import medusaError from "@lib/util/medusa-error"
@@ -50,27 +55,27 @@ const getMedusaHeaders = (tags: string[] = []) => {
   return headers
 }
 
-export const getCollectionsList = async function (): Promise<{
-  collections: ProductCollection[]
+export const getCollections = async function (): Promise<{
+  collections: Collection[]
 }> {
-  const dbcollections = database.collections as unknown as ProductCollection[]
+  const dbcollections = database.collections as unknown as Collection[]
 
   return {
     collections: dbcollections,
   }
 }
 
-export const getCollectionByHandle = cache(async function (
+export const getCollectionByHandle = async function (
   handle: string
-): Promise<ProductCollection> {
+): Promise<Collection> {
   const collection = database.collections.find(
     (x) => x.handle == handle
-  ) as unknown as ProductCollection
+  ) as unknown as Collection
 
   return collection
-})
+}
 
-export const getProductsList = async function (): Promise<{
+export const getProducts = async function (): Promise<{
   products: ProductPreviewType[]
 }> {
   const products = database.products as unknown as PricedProduct[]
@@ -82,27 +87,21 @@ export const getProductsList = async function (): Promise<{
   }
 }
 
-export const getProductsListByCollection = async function (
+export const getProductsByCollectionId = async function (
   collectionId: string
 ): Promise<{
-  products: ProductPreviewType[]
+  products: Product[]
 }> {
   if (collectionId === "all") {
-    const products = database.products as unknown as PricedProduct[]
-    const transformedProducts = (await getTransformedProducts(products))
-      .products
     return {
-      products: transformedProducts,
+      products: database.products as unknown as Product[],
     }
   }
 
-  const products = database.collections.find((x) => x.id == collectionId)
-    ?.products as unknown as PricedProduct[]
-
-  const transformedProducts = (await getTransformedProducts(products)).products
-
   return {
-    products: transformedProducts,
+    products: database.collections.find(
+      (x) => x.id == collectionId
+    )?.products as unknown as Product[],
   }
 }
 
@@ -114,6 +113,24 @@ export const getTransformedProducts = async function (
   })
 
   return { products }
+}
+
+export const getProductByHandle = async function (
+  handle: string
+): Promise<{ product: Product }> {
+  const product = database.products.find(
+    (x) => x.handle == handle
+  ) as unknown as Product
+
+  return { product }
+}
+
+export const getProductById = async function (id: string) {
+  const product = database.products.find(
+    (x) => x.id == id
+  ) as unknown as Product
+
+  return product
 }
 
 // Cart actions
@@ -446,37 +463,6 @@ export const getRegion = cache(async function (countryCode: string) {
   }
 })
 
-export const retrievePricedProductById = cache(async function ({
-  id,
-}: {
-  id: string
-}) {
-  const headers = getMedusaHeaders(["products"])
-
-  return medusaClient.products
-    .retrieve(`${id}`, headers)
-    .then(({ product }) => product)
-    .catch((err) => {
-      console.log(err)
-      return null
-    })
-})
-
-export const getProductByHandle = cache(async function (
-  handle: string
-): Promise<{ product: PricedProduct }> {
-  const headers = getMedusaHeaders(["products"])
-
-  const product = await medusaClient.products
-    .list({ handle }, headers)
-    .then(({ products }) => products[0])
-    .catch((err) => {
-      throw err
-    })
-
-  return { product }
-})
-
 export const getProductsListWithSort = cache(
   async function getProductsListWithSort({
     page = 0,
@@ -493,7 +479,7 @@ export const getProductsListWithSort = cache(
   }> {
     const limit = queryParams?.limit || 12
 
-    const { products } = await getProductsList()
+    const { products } = await getProducts()
 
     const pageParam = (page - 1) * limit
 

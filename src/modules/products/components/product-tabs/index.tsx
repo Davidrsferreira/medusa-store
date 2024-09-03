@@ -1,10 +1,10 @@
 "use client"
 
-import { PricedProduct } from "@medusajs/medusa/dist/types/pricing"
 import Accordion from "./accordion"
+import { Product } from "types/global"
 
 type ProductTabsProps = {
-  product: PricedProduct
+  product: Product
 }
 
 const ProductTabs = ({ product }: ProductTabsProps) => {
@@ -52,11 +52,6 @@ const ProductInfoTab = ({ product }: ProductTabsProps) => {
           </div>
         </div>
       </div>
-      {product.tags?.length ? (
-        <div>
-          <span className="font-semibold">Tags</span>
-        </div>
-      ) : null}
     </div>
   )
 }

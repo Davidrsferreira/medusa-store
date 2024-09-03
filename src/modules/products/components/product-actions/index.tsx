@@ -1,7 +1,5 @@
 "use client"
 
-import { Region } from "@medusajs/medusa"
-import { PricedProduct } from "@medusajs/medusa/dist/types/pricing"
 import { Button, Heading, Text } from "@medusajs/ui"
 import { useRef, useState } from "react"
 import ProductPrice from "../product-price"
@@ -11,23 +9,13 @@ import Input from "@modules/common/components/input"
 import { SubmitButton } from "@modules/checkout/components/submit-button"
 import emailjs from "@emailjs/browser"
 import { toast } from "react-toastify"
+import { ProductPreviewType } from "types/global"
 
 type ProductActionsProps = {
-  product: PricedProduct
-  region: Region
+  product: ProductPreviewType
 }
 
-export type PriceType = {
-  calculated_price: string
-  original_price?: string
-  price_type?: "sale" | "default"
-  percentage_diff?: string
-}
-
-export default function ProductActions({
-  product,
-  region,
-}: ProductActionsProps) {
+export default function ProductActions({ product }: ProductActionsProps) {
   const { state, open, close: closeModal } = useToggleState(false)
   const [input, setInput] = useState({
     name: "",
@@ -80,7 +68,7 @@ export default function ProductActions({
   return (
     <>
       <div className="flex flex-col gap-y-2" ref={actionsRef}>
-        <ProductPrice price={1} />
+        <ProductPrice price={product.price} />
         <Text className="txt-compact-small-plus text-ui-fg-subtle">
           Para comprar o item ou obter mais informações, por favor, solicite
           contacto.

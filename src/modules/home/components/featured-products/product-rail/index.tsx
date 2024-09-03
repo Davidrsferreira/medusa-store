@@ -2,12 +2,12 @@ import { Text } from "@medusajs/ui"
 
 import InteractiveLink from "@modules/common/components/interactive-link"
 import ProductPreview from "@modules/products/components/product-preview"
-import { ProductCollectionWithPreviews } from "types/global"
+import { Collection } from "types/global"
 
 export default function ProductRail({
   collection,
 }: {
-  collection: ProductCollectionWithPreviews
+  collection: Collection
 }) {
   const { products } = collection
   if (!products) {
@@ -26,7 +26,7 @@ export default function ProductRail({
         {products &&
           products.map((product) => (
             <li key={product.id}>
-              <ProductPreview productPreview={product} isFeatured />
+              <ProductPreview product={product} isFeatured/>
             </li>
           ))}
       </ul>

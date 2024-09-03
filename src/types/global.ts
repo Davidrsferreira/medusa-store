@@ -2,6 +2,34 @@ import { Cart, ProductCategory, ProductVariant, Region } from "@medusajs/medusa"
 import { PricedProduct } from "@medusajs/medusa/dist/types/pricing"
 import { ProductCollection } from "@medusajs/product"
 
+export type Collection = {
+  id: string
+  title: string
+  handle: string
+  products: Product[]
+}
+
+export type Product = {
+  id: string
+  title: string
+  subtitle?: string
+  description?: string
+  handle: string | null
+  thumbnail: string | null
+  price: number
+  images: Image[]
+  material?: string
+  length?: number
+  width?: number
+  height?: number
+  collectionId: string
+}
+
+export type Image = {
+  id: string
+  url: string
+}
+
 export type FeaturedProduct = {
   id: string
   title: string
@@ -14,7 +42,7 @@ export type ProductPreviewType = {
   title: string
   handle: string | null
   thumbnail: string | null
-  price?: number
+  price: number
   isFeatured?: boolean
 }
 

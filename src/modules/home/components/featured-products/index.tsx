@@ -1,10 +1,10 @@
 import ProductRail from "@modules/home/components/featured-products/product-rail"
-import { ProductCollectionWithPreviews } from "types/global"
+import { Collection } from "types/global"
 
 export default async function FeaturedProducts({
   collections,
 }: {
-  collections: ProductCollectionWithPreviews[]
+  collections: Collection[]
 }) {
   return collections.map((collection) => (
     <li key={collection.id}>

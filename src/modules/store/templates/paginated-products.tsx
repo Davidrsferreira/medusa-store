@@ -1,4 +1,4 @@
-import { getProductsListByCollection } from "@lib/data"
+import { getProductsByCollectionId } from "@lib/data"
 import ProductPreview from "@modules/products/components/product-preview"
 
 export default async function PaginatedProducts({
@@ -6,7 +6,7 @@ export default async function PaginatedProducts({
 }: {
   collectionId: string
 }) {
-  const { products } = await getProductsListByCollection(collectionId)
+  const { products } = await getProductsByCollectionId(collectionId)
 
   return (
     <>
@@ -14,7 +14,7 @@ export default async function PaginatedProducts({
         {products.map((p) => {
           return (
             <li key={p.id}>
-              <ProductPreview productPreview={p} />
+              <ProductPreview product={p} />
             </li>
           )
         })}
