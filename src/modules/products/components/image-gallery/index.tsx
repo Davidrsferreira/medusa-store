@@ -21,7 +21,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
           <Container key={image.id} id={image.id} className="p-0">
             <img
               key={image.url}
-              src={image.url}
+              src={`/images/${image.url}`}
               className="rounded-rounded"
               alt={`Product image ${index + 1}`}
             />
