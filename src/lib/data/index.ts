@@ -20,16 +20,12 @@ export const getProducts = async function (): Promise<Product[]> {
   return database.products as unknown as Product[]
 }
 
-export const getProductsByCollectionId = async function (
-  collectionId: string
-): Promise<Product[]> {
-  if (collectionId === "all") {
-    return database.products as unknown as Product[]
-  }
+export const getProductById = async function (id: string): Promise<Product> {
+  const product = database.products.find(
+    (x) => x.id == id
+  ) as unknown as Product
 
-  return database.products.filter(
-    (x) => x.collectionId == collectionId
-  ) as unknown as Product[]
+  return product
 }
 
 export const getProductByHandle = async function (
@@ -42,12 +38,16 @@ export const getProductByHandle = async function (
   return product
 }
 
-export const getProductById = async function (id: string): Promise<Product> {
-  const product = database.products.find(
-    (x) => x.id == id
-  ) as unknown as Product
+export const getProductsByCollectionId = async function (
+  collectionId: string
+): Promise<Product[]> {
+  if (collectionId === "all") {
+    return database.products as unknown as Product[]
+  }
 
-  return product
+  return database.products.filter(
+    (x) => x.collectionId == collectionId
+  ) as unknown as Product[]
 }
 
 export const formatPrice = (amount: number): string => {
