@@ -75,15 +75,14 @@ export default function ProductActions({ product }: ProductActionsProps) {
           Para comprar o item ou obter mais informações, por favor, solicite
           contacto.
         </Text>
-        <Button
-          onClick={open}
-          disabled={false}
-          variant="primary"
-          className="w-full h-10"
-          data-testid="add-product-button"
+        <a
+          href="https://wa.me/351933422777?text=Hello%20there!%20I%20would%20like%20to%20know%20more%20about%20your%20products"
+          target="_blank"
         >
-          Solicitar contacto
-        </Button>
+          <Button disabled={false} variant="primary" className="w-full h-10">
+            Solicitar contacto
+          </Button>
+        </a>
         <Modal isOpen={state} close={close}>
           <Modal.Title>
             <Heading className="mb-2">Solicitar contacto</Heading>
