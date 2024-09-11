@@ -23,7 +23,7 @@ export default function ProductActions({ product }: ProductActionsProps) {
           contacto.
         </Text>
         <a
-          href="https://wa.me/351933422777?text=Hello%20there!%20I%20would%20like%20to%20know%20more%20about%20your%20products"
+          href={`https://wa.me/351933422777?text=Olá,%20tenho%20interesse%20no%20item%20"${product.title}"`}
           target="_blank"
         >
           <Button disabled={false} variant="primary" className="w-full h-10">
