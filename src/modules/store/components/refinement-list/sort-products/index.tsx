@@ -56,7 +56,7 @@ const collectionOptions = [
   },
   {
     value: "prateleiras",
-    label: "Prateleiras",
+    label: "Prateleiras/Armários",
   },
   {
     value: "outros",

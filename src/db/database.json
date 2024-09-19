@@ -1,18 +1,13 @@
 {
   "collections": [
     {
-      "id": "outros",
-      "title": "Outros",
-      "handle": "outros"
-    },
-    {
       "id": "cozinha",
       "title": "Cozinha",
       "handle": "cozinha"
     },
     {
       "id": "prateleiras",
-      "title": "Prateleiras",
+      "title": "Prateleiras/Armários",
       "handle": "prateleiras"
     },
     {
@@ -44,6 +39,11 @@
       "id": "escritorio",
       "title": "Escritório",
       "handle": "escritorio"
+    },
+    {
+      "id": "outros",
+      "title": "Outros",
+      "handle": "outros"
     }
   ],
   "products": [
@@ -261,6 +261,89 @@
       "collectionTitle": "Organização"
     },
     {
+      "id": "prod_armario1",
+      "title": "Armário de madeira",
+      "subtitle": "",
+      "description": "Armário de madeira com 3 gavetas e cabideiro",
+      "handle": "armario-com-gavetas",
+      "thumbnail": "arm1.jpeg",
+      "price": "120",
+      "images": [
+        {
+          "id": 1,
+          "url": "arm1.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "arm2.jpeg"
+        },
+        {
+          "id": 3,
+          "url": "arm3.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "arm4.jpeg"
+        }
+      ],
+      "material": "Madeira",
+      "length": "50",
+      "width": "175",
+      "height": "179",
+      "collectionId": "prateleiras",
+      "collectionTitle": "Prateleiras/Armários"
+    },
+    {
+      "id": "prod_armario2",
+      "title": "Armário de madeira",
+      "subtitle": "",
+      "description": "Armário de madeira com 3 prateleiras e 2 cabideiros. **Imagem do fabricante, entre em contato para obter imagens reais do produto ou qualquer outra informação.",
+      "handle": "armario",
+      "thumbnail": "arma1.jpeg",
+      "price": "90",
+      "images": [
+        {
+          "id": 1,
+          "url": "arma1.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "arma2.jpeg"
+        }
+      ],
+      "material": "Madeira",
+      "length": "50",
+      "width": "175",
+      "height": "179",
+      "collectionId": "prateleiras",
+      "collectionTitle": "Prateleiras/Armários"
+    },
+    {
+      "id": "prod_estante",
+      "title": "Estante de madeira",
+      "subtitle": "",
+      "description": "Estante de madeira com 6 prateleiras.",
+      "handle": "estante",
+      "thumbnail": "est1.jpeg",
+      "price": "30",
+      "images": [
+        {
+          "id": 1,
+          "url": "est1.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "est2.jpeg"
+        }
+      ],
+      "material": "Madeira",
+      "length": "20",
+      "width": "130",
+      "height": "180",
+      "collectionId": "prateleiras",
+      "collectionTitle": "Prateleiras/Armários"
+    },
+    {
       "id": "prod_01J2E5N6P6V4XGN6PDSXTAMW9W",
       "title": "Cestinho de bambu",
       "subtitle": "",
@@ -282,6 +365,31 @@
       "length": "2",
       "width": "20",
       "height": "20",
+      "collectionId": "decoracao",
+      "collectionTitle": "Decoração"
+    },
+    {
+      "id": "prod_boneco",
+      "title": "Manequim de madeira",
+      "subtitle": "https://www.ikea.com/pt/pt/p/gestalta-manequim-cru-40255462/",
+      "description": "Manequim de madeira articulado",
+      "handle": "manequim",
+      "thumbnail": "boneco1.jpeg",
+      "price": "4",
+      "images": [
+        {
+          "id": 1,
+          "url": "boneco1.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "boneco2.jpeg"
+        }
+      ],
+      "material": "Madeira",
+      "length": "5",
+      "width": "20",
+      "height": "33",
       "collectionId": "decoracao",
       "collectionTitle": "Decoração"
     },
@@ -637,6 +745,64 @@
       "length": "1",
       "width": "120",
       "height": "180",
+      "collectionId": "decoracao",
+      "collectionTitle": "Decoração"
+    },
+    {
+      "id": "prod_cactu",
+      "title": "Conjunto de cactos",
+      "subtitle": "https://www.ikea.com/pt/pt/p/sjaelsligt-decoracao-conjunto-de-3-verde-00343282/",
+      "description": "Conjunto com 3 cactos para decoração",
+      "handle": "cactos",
+      "thumbnail": "cact1.jpeg",
+      "price": "5",
+      "images": [
+        {
+          "id": 1,
+          "url": "cact1.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "cact2.jpeg"
+        },
+        {
+          "id": 3,
+          "url": "cact3.jpeg"
+        },
+        {
+          "id": 4,
+          "url": "cact4.jpeg"
+        }
+      ],
+      "material": "Cerâmica",
+      "length": "",
+      "width": "",
+      "height": "",
+      "collectionId": "decoracao",
+      "collectionTitle": "Decoração"
+    },
+    {
+      "id": "prod_gato",
+      "title": "Cofre gato da sorte",
+      "subtitle": "",
+      "description": "Cofre gato da sorte",
+      "handle": "cofre",
+      "thumbnail": "gato1.jpeg",
+      "price": "2",
+      "images": [
+        {
+          "id": 1,
+          "url": "gato1.jpeg"
+        },
+        {
+          "id": 2,
+          "url": "gato2.jpeg"
+        }
+      ],
+      "material": "Cerâmica",
+      "length": "",
+      "width": "",
+      "height": "",
       "collectionId": "decoracao",
       "collectionTitle": "Decoração"
     },
