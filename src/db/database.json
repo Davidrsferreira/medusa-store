@@ -140,31 +140,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "prod_01J6C6R4VHTGCYW7VQ8JK0C35R",
-      "title": "Jarro com tampa 1,5L",
-      "subtitle": "https://www.ikea.com/pt/pt/p/ikea-365-jarro-c-tampa-vidro-transparente-cortica-50279721/",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "jarro-com-tampa-1-5-l",
-      "thumbnail": "1724839105364-ikea-365-jarro-c-tampa-vidro-transparente-cortica__0711276_pe728114_s5.jpeg",
-      "price": "4",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724839105349-ikea-365-jarro-c-tampa-vidro-transparente-cortica__0711276_pe728114_s5.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724839105349-ikea-365-jarro-c-tampa-vidro-transparente-cortica__0897024_pe629221_s5.jpeg"
-        }
-      ],
-      "material": "Vidro/Cortiça",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
       "id": "prod_01J2GG7CK65J2XAD0TZVBXW9XJ",
       "title": "Tapete para casa de banho",
       "subtitle": "",
@@ -1022,27 +997,6 @@
       "height": "",
       "collectionId": "decoracao",
       "collectionTitle": "Decoração"
-    },
-    {
-      "id": "prod_01J2BDNMN2SZZAK4KSJ861905Q",
-      "title": "Luminária",
-      "subtitle": "https://www.ikea.com/pt/pt/p/lauters-candeeiro-de-pe-freixo-branco-30405042/",
-      "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.\n",
-      "handle": "luminaria",
-      "thumbnail": "1720517841537-WhatsApp Image 2024-07-09 at 10.32.01.jpeg",
-      "price": "20",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720517841516-WhatsApp Image 2024-07-09 at 10.32.01.jpeg"
-        }
-      ],
-      "material": "Madeira/Tecido",
-      "length": "62",
-      "width": "62",
-      "height": "151",
-      "collectionId": "iluminacao",
-      "collectionTitle": "Iluminação"
     },
     {
       "id": "prod_01J2BD4F68EZE85C3W0X8J4Q7Z",
