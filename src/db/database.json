@@ -165,27 +165,6 @@
       "collectionTitle": "Outros"
     },
     {
-      "id": "prod_01J2GG2PZVMGGV8HSN80AG8SFD",
-      "title": "Balança Xiaomi",
-      "subtitle": "",
-      "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "balanca-xiaomi",
-      "thumbnail": "1720688139178-WhatsApp Image 2024-07-11 at 09.55.23.jpeg",
-      "price": "10",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720688139171-WhatsApp Image 2024-07-11 at 09.55.23.jpeg"
-        }
-      ],
-      "material": "Vidro",
-      "length": "2",
-      "width": "28",
-      "height": "28",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "prod_01J2E6WR09SV2WG8W46Z9FV5TJ",
       "title": "Prateleira pequena",
       "subtitle": "",
