@@ -1278,27 +1278,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "prod_01J2BFN8DTD40X3QHK95BTW6EP",
-      "title": "Transportadora de animais",
-      "subtitle": "https://www.zu.pt/produto/transportadora-panzer-mimau-5506077.html",
-      "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "transportadora-de-animais",
-      "thumbnail": "1720519926183-WhatsApp Image 2024-07-09 at 11.11.47.jpeg",
-      "price": "5",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720519926162-WhatsApp Image 2024-07-09 at 11.11.47.jpeg"
-        }
-      ],
-      "material": "Plástico",
-      "length": "53",
-      "width": "33",
-      "height": "33",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "prod_01J2BFAZKQFEGYY8MTAN4W1CAX",
       "title": "Aspirador de pó",
       "subtitle": "https://www.worten.pt/produtos/aspirador-sem-saco-tristar-sz-2174-mrkean-8713016004116?gad_source=1&gclid=CjwKCAjw8rW2BhAgEiwAoRO5rFLQTIt8w9G-HhQc5UKqZtpq2Y7DBbBZZri1gJOx7WcgvyeTBEZ8zBoCn_QQAvD_BwE",
@@ -1339,35 +1318,6 @@
       "height": "",
       "collectionId": "cozinha",
       "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "prod_01J2BEYJ43YQ09MDG7YRHWAC40",
-      "title": "Sapateira",
-      "subtitle": "https://www.ikea.com/pt/pt/p/grejig-sapateira-cinz-40329868/",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "sapateira",
-      "thumbnail": "1720519182445-WhatsApp Image 2024-07-09 at 10.59.25.jpeg",
-      "price": "1",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720519182427-WhatsApp Image 2024-07-09 at 10.59.25.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724773804216-grejig-sapateira-cinz__0909347_pe677783_s5.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "1724773804216-grejig-sapateira-cinz__0710739_pe727757_s5.jpeg"
-        }
-      ],
-      "material": "Metal",
-      "length": "27",
-      "width": "58",
-      "height": "17",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
     },
     {
       "id": "prod_01J2BEFV6FXY31SNE1FKA63S3J",
@@ -1583,27 +1533,6 @@
       "length": "",
       "width": "",
       "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
-      "id": "prod_01J2BB9WHF1BP6PFHVSSNT52Z8",
-      "title": "Carrinho de metal",
-      "subtitle": "https://www.ikea.com/pt/pt/p/nissafors-carrinho-bege-40585801/",
-      "description": "Carrinho de metal com rodas, ideal para mini bar, cozinha, arrumação.\n",
-      "handle": "carrinho-de-metal",
-      "thumbnail": "1724835800970-WhatsApp Image 2024-08-28 at 10.01.20.jpeg",
-      "price": "15",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724835808997-WhatsApp Image 2024-08-28 at 10.01.20 (1).jpeg"
-        }
-      ],
-      "material": "Metal",
-      "length": "50",
-      "width": "30",
-      "height": "83",
       "collectionId": "outros",
       "collectionTitle": "Outros"
     },
