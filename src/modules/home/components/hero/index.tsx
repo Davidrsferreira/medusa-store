@@ -6,7 +6,7 @@ const Hero = () => {
     <div
       className="h-[45vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle"
       style={{
-        backgroundImage: "url('/images/wide.jpeg')",
+        backgroundImage: "url('/images/wide.jpg')",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center"
