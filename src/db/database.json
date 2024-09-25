@@ -1562,31 +1562,6 @@
       "collectionTitle": "Escritório"
     },
     {
-      "id": "prod_01J2169CB9R6S54M02B30PEA0F",
-      "title": "Espelho de parede",
-      "subtitle": "https://www.ikea.com/pt/pt/p/nissedal-espelho-preto-30320321/",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "espelho-de-parede",
-      "thumbnail": "1720174555463-WhatsApp Image 2024-07-05 at 11.14.51.jpeg",
-      "price": "10",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720174555429-WhatsApp Image 2024-07-05 at 11.14.51.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724836160404-nissedal-espelho-preto__1343057_pe949295_s5.jpeg"
-        }
-      ],
-      "material": "Madeira",
-      "length": "",
-      "width": "40",
-      "height": "150",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "ferro",
       "title": "Ferro de engomar",
       "subtitle": "",
