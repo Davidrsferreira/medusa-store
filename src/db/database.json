@@ -648,35 +648,6 @@
       "collectionTitle": "Outros"
     },
     {
-      "id": "marcadores",
-      "title": "Conjunto de marcadores com ponta dupla",
-      "subtitle": "https://www.amazon.es/dp/B0CH9VRM94?ref=ppx_yo2ov_dt_b_fed_asin_title",
-      "description": "Conjunto de marcadores com 80 cores",
-      "handle": "marcadores",
-      "thumbnail": "canetas1.jpeg",
-      "price": "10",
-      "images": [
-        {
-          "id": 1,
-          "url": "canetas1.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "canetas2.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "canetas3.jpeg"
-        }
-      ],
-      "material": "Plástico",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "prod_01J2E3P3ET2XJ8RFAA86X1AG5K",
       "title": "Tábua de cortar",
       "subtitle": "https://www.ikea.com/pt/pt/p/laemplig-tabua-de-cortar-bambu-00309829/",
@@ -873,27 +844,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "prod_01J2E2C209FZB1ZFMYH0BN33W3",
-      "title": "Liquidificador",
-      "subtitle": "",
-      "description": "",
-      "handle": "liquidificador",
-      "thumbnail": "1724772057995-WhatsApp Image 2024-08-27 at 16.09.43.jpeg",
-      "price": "12",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724772067645-WhatsApp Image 2024-08-27 at 16.09.43.jpeg"
-        }
-      ],
-      "material": "Vidro/Plástico",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "eletrodomesticos",
-      "collectionTitle": "Eletrodomésticos"
-    },
-    {
       "id": "prod_01J2E1W7R7BWRY1YYYJPBNMXY8",
       "title": "Prateleira de madeira",
       "subtitle": "https://www.ikea.com/pt/pt/p/bekvaem-estante-p-especiarias-choupo-20487175/",
@@ -1038,27 +988,6 @@
       "height": "",
       "collectionId": "cozinha",
       "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "prod_01J2E0CKTK8ZX0T54SMNKZ7F4Y",
-      "title": "Tapete de pelo comprido",
-      "subtitle": "",
-      "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "tapete-de-pelo-comprido",
-      "thumbnail": "1720604577577-WhatsApp Image 2024-07-10 at 10.38.50.jpeg",
-      "price": "15",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720604577551-WhatsApp Image 2024-07-10 at 10.38.50.jpeg"
-        }
-      ],
-      "material": "Fibra sintética",
-      "length": "1",
-      "width": "120",
-      "height": "180",
-      "collectionId": "decoracao",
-      "collectionTitle": "Decoração"
     },
     {
       "id": "mixer",
@@ -1276,27 +1205,6 @@
       "height": "",
       "collectionId": "cozinha§",
       "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "prod_01J2BFAZKQFEGYY8MTAN4W1CAX",
-      "title": "Aspirador de pó",
-      "subtitle": "https://www.worten.pt/produtos/aspirador-sem-saco-tristar-sz-2174-mrkean-8713016004116?gad_source=1&gclid=CjwKCAjw8rW2BhAgEiwAoRO5rFLQTIt8w9G-HhQc5UKqZtpq2Y7DBbBZZri1gJOx7WcgvyeTBEZ8zBoCn_QQAvD_BwE",
-      "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "aspirador-de-po",
-      "thumbnail": "1724773581642-81854f8f255fd18702da621ba077d131fb9caad9.jpeg",
-      "price": "25",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724773594128-81854f8f255fd18702da621ba077d131fb9caad9.jpeg"
-        }
-      ],
-      "material": "Plástico",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "eletrodomesticos",
-      "collectionTitle": "Eletrodomésticos"
     },
     {
       "id": "batedor",
