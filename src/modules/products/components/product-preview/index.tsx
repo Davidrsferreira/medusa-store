@@ -37,9 +37,20 @@ export default async function ProductPreview({
             {productPreview.title}
           </Text>
           <div className="flex items-center gap-x-2">
-            <Text className="text-ui-fg-muted">
-              {formatPrice(product.price)}
-            </Text>
+            {product.sale ? (
+              <div className="md:flex md:space-x-2">
+                <Text className="text-ui-fg-muted line-through">
+                  {formatPrice(product.price)}
+                </Text>
+                <Text className="text-ui-fg-error">
+                  {formatPrice(product.sale)}
+                </Text>
+              </div>
+            ) : (
+              <Text className="text-ui-fg-muted">
+                {formatPrice(product.price)}
+              </Text>
+            )}
           </div>
         </div>
       </div>

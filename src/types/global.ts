@@ -13,6 +13,7 @@ export type Product = {
   handle: string | null
   thumbnail: string | null
   price: number
+  sale?: number
   images: Image[]
   material?: string
   length?: number

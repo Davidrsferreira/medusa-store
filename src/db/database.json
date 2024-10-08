@@ -55,6 +55,7 @@
       "handle": "painel-organizador",
       "thumbnail": "1724753421229-skadis-placar-branco__1165863_pe890996_s5.jpeg",
       "price": "12",
+      "sale": "8",
       "images": [
         {
           "id": 1,
@@ -80,6 +81,7 @@
       "handle": "armario-com-gavetas",
       "thumbnail": "arm1.jpeg",
       "price": "120",
+      "sale": "80",
       "images": [
         {
           "id": 1,
@@ -113,6 +115,7 @@
       "handle": "armario",
       "thumbnail": "arma1.jpeg",
       "price": "90",
+      "sale": "65",
       "images": [
         {
           "id": 1,
@@ -138,6 +141,7 @@
       "handle": "estante",
       "thumbnail": "est1.jpeg",
       "price": "30",
+      "sale": "15",
       "images": [
         {
           "id": 1,
@@ -163,6 +167,7 @@
       "handle": "travesseiro",
       "thumbnail": "1724840443241-rosenskaerm-almofada-ergonomica-costas-lado__0722542_pe733642_s5.jpeg",
       "price": "5",
+      "sale": "3",
       "images": [
         {
           "id": 1,
@@ -221,6 +226,7 @@
       "handle": "caixa-termica",
       "thumbnail": "termica1.jpeg",
       "price": "8",
+      "sale": "5",
       "images": [
         {
           "id": 1,
@@ -296,6 +302,7 @@
       "handle": "prato-pequeno",
       "thumbnail": "1724839789286-strimmig-prato-gres-azul__0735138_pe739772_s5.jpeg",
       "price": "2.5",
+      "sale": "1",
       "images": [
         {
           "id": 1,
@@ -346,6 +353,7 @@
       "handle": "tapete-para-casa-de-banho",
       "thumbnail": "1724751222009-TENDER-WC.jpg",
       "price": "3",
+      "sale": "1.5",
       "images": [
         {
           "id": 1,
@@ -371,6 +379,7 @@
       "handle": "prateleira-pequena",
       "thumbnail": "1724753077429-WhatsApp Image 2024-08-27 at 10.26.13 (1).jpeg",
       "price": "3",
+      "sale": "1.5",
       "images": [
         {
           "id": 1,
@@ -421,6 +430,7 @@
       "handle": "manequim",
       "thumbnail": "boneco1.jpeg",
       "price": "4",
+      "sale": "2",
       "images": [
         {
           "id": 1,
@@ -488,6 +498,7 @@
       "handle": "sandwicheira",
       "thumbnail": "1724754111127-003355533_9774d84c-b3b2-4698-aad2-d9c835977e85.jpeg",
       "price": "10",
+      "sale": "7.5",
       "images": [
         {
           "id": 1,
@@ -517,6 +528,7 @@
       "handle": "base-giratoria",
       "thumbnail": "1724754295981-snudda-base-giratoria-madeira-macica__0896677_pe610333_s5.jpeg",
       "price": "5",
+      "sale": "3.5",
       "images": [
         {
           "id": 1,
@@ -542,6 +554,7 @@
       "handle": "vaso-quadrado",
       "thumbnail": "vasoquadrado1.jpeg",
       "price": "5",
+      "sale": "2.5",
       "images": [
         {
           "id": 1,
@@ -592,6 +605,7 @@
       "handle": "lapis",
       "thumbnail": "lapis.jpeg",
       "price": "7",
+      "sale": "3",
       "images": [
         {
           "id": 1,
@@ -613,6 +627,7 @@
       "handle": "mini-batedeira-de-mao",
       "thumbnail": "1724771912545-WhatsApp Image 2024-08-27 at 11.38.11.jpeg",
       "price": "5",
+      "sale": "3",
       "images": [
         {
           "id": 1,
@@ -634,6 +649,7 @@
       "handle": "parafusadeira",
       "thumbnail": "parafusa.jpeg",
       "price": "8",
+      "sale": "5",
       "images": [
         {
           "id": 1,
@@ -655,6 +671,7 @@
       "handle": "tabua-de-cortar",
       "thumbnail": "1724771434376-laemplig-tabua-de-cortar-bambu__0354871_pe547849_s5.jpeg",
       "price": "6",
+      "sale": "4.5",
       "images": [
         {
           "id": 1,
@@ -709,6 +726,7 @@
       "handle": "air-fryer",
       "thumbnail": "1724755470718-650_1200.jpeg",
       "price": "60",
+      "sale": "45",
       "images": [
         {
           "id": 1,
@@ -755,6 +773,7 @@
       "handle": "maquina-de-cafe",
       "thumbnail": "1720607444048-WhatsApp Image 2024-07-10 at 11.29.27.jpeg",
       "price": "15",
+      "sale": "10",
       "images": [
         {
           "id": 1,
@@ -801,6 +820,7 @@
       "handle": "maquina-de-cafe-dolce-gusto",
       "thumbnail": "1720607151740-WhatsApp Image 2024-07-10 at 11.24.00.jpeg",
       "price": "35",
+      "sale": "25",
       "images": [
         {
           "id": 1,
@@ -876,6 +896,7 @@
       "handle": "conjunto-com-2-galheteiros",
       "thumbnail": "1724772378035-WhatsApp Image 2024-08-27 at 10.25.46.jpeg",
       "price": "5",
+      "sale": "3",
       "images": [
         {
           "id": 1,
@@ -922,6 +943,7 @@
       "handle": "cabide-de-parede",
       "thumbnail": "1720605486939-kartotek-cabide-c-5-ganchos-pinho-cinz__0909040_pe649346_s5 (1).jpeg",
       "price": "8",
+      "sale": "6",
       "images": [
         {
           "id": 1,
@@ -951,6 +973,7 @@
       "handle": "candeeiro-de-teto",
       "thumbnail": "1720605215474-WhatsApp Image 2024-07-10 at 10.48.17.jpeg",
       "price": "8",
+      "sale": "6",
       "images": [
         {
           "id": 1,
@@ -1018,6 +1041,7 @@
       "handle": "cactos",
       "thumbnail": "cact1.jpeg",
       "price": "5",
+      "sale": "3",
       "images": [
         {
           "id": 1,
@@ -1118,6 +1142,7 @@
       "handle": "tapete-de-pelo-curto",
       "thumbnail": "1720603710803-WhatsApp Image 2024-07-10 at 10.25.13.jpeg",
       "price": "25",
+      "sale": "20",
       "images": [
         {
           "id": 1,
@@ -1147,6 +1172,7 @@
       "handle": "manta",
       "thumbnail": "1720603145515-WhatsApp Image 2024-07-10 at 10.15.51.jpeg",
       "price": "10",
+      "sale": "8",
       "images": [
         {
           "id": 1,
@@ -1172,6 +1198,7 @@
       "handle": "dracena",
       "thumbnail": "1724773041068-WhatsApp Image 2024-08-27 at 16.36.31.jpeg",
       "price": "15",
+      "sale": "10",
       "images": [
         {
           "id": 1,
@@ -1235,6 +1262,7 @@
       "handle": "tapete-yoga",
       "thumbnail": "1720518700216-WhatsApp Image 2024-07-09 at 10.50.44.jpeg",
       "price": "10",
+      "sale": "7",
       "images": [
         {
           "id": 1,
@@ -1281,6 +1309,7 @@
       "handle": "sansevieria-espada-de-sao-jorge",
       "thumbnail": "1724774041349-WhatsApp Image 2024-08-27 at 16.53.00.jpeg",
       "price": "25",
+      "sale": "18",
       "images": [
         {
           "id": 1,
@@ -1360,6 +1389,7 @@
       "handle": "yucca-elephantipes-pata-de-elefante",
       "thumbnail": "1724835112378-WhatsApp Image 2024-08-28 at 09.51.36.jpeg",
       "price": "35",
+      "sale": "25",
       "images": [
         {
           "id": 1,
@@ -1402,6 +1432,7 @@
       "handle": "monstera-deliciosa-costela-de-adao",
       "thumbnail": "1724835562369-WhatsApp Image 2024-08-28 at 09.58.44.jpeg",
       "price": "50",
+      "sale": "40",
       "images": [
         {
           "id": 1,
@@ -1452,6 +1483,7 @@
       "handle": "mesa-com-ajuste-de-altura",
       "thumbnail": "1724836014877-91QPLKKYPAL._AC_SL1500_.jpeg",
       "price": "10",
+      "sale": "8",
       "images": [
         {
           "id": 1,
@@ -1477,6 +1509,7 @@
       "handle": "ferro",
       "thumbnail": "ferro1.jpeg",
       "price": "8",
+      "sale": "6",
       "images": [
         {
           "id": 1,
@@ -1506,6 +1539,7 @@
       "handle": "secretaria",
       "thumbnail": "1720174248302-WhatsApp Image 2024-07-05 at 11.09.08.jpeg",
       "price": "15",
+      "sale": "10",
       "images": [
         {
           "id": 1,
@@ -1548,6 +1582,7 @@
       "handle": "cadeira-steelcase",
       "thumbnail": "1720173433331-WhatsApp Image 2024-07-05 at 10.41.53.jpeg",
       "price": "150",
+      "sale": "120",
       "images": [
         {
           "id": 1,
@@ -1569,6 +1604,7 @@
       "handle": "cadeira-staples",
       "thumbnail": "1724836768820-WhatsApp Image 2024-08-28 at 10.16.39.jpeg",
       "price": "40",
+      "sale": "20",
       "images": [
         {
           "id": 1,
@@ -1590,6 +1626,7 @@
       "handle": "porta-retratos",
       "thumbnail": "1720108870966-WhatsApp Image 2024-07-04 at 16.59.04.jpeg",
       "price": "4",
+      "sale": "2",
       "images": [
         {
           "id": 1,
@@ -1615,6 +1652,7 @@
       "handle": "longboard",
       "thumbnail": "1724837307091-WhatsApp Image 2024-08-28 at 10.27.56.jpeg",
       "price": "15",
+      "sale": "10",
       "images": [
         {
           "id": 1,
@@ -1640,6 +1678,7 @@
       "handle": "cesto-organizador",
       "thumbnail": "1720108000254-WhatsApp Image 2024-07-04 at 16.37.23.jpeg",
       "price": "4",
+      "sale": "2",
       "images": [
         {
           "id": 1,
@@ -1661,6 +1700,7 @@
       "handle": "caixa-com-tampa-dobravel",
       "thumbnail": "1720092286623-WhatsApp Image 2024-07-04 at 12.20.44.jpeg",
       "price": "8",
+      "sale": "5",
       "images": [
         {
           "id": 1,

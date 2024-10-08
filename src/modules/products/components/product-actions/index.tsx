@@ -16,7 +16,20 @@ export default function ProductActions({ product }: ProductActionsProps) {
     <>
       <div className="flex flex-col gap-y-2" ref={actionsRef}>
         <div className="flex flex-col text-ui-fg-base">
-          <span>{formatPrice(product.price)}</span>
+          {product.sale ? (
+            <div className="flex space-x-2">
+              <span className="text-ui-fg-muted line-through">
+                {formatPrice(product.price)}
+              </span>
+              <span className="text-ui-fg-error">
+                {formatPrice(product.sale)}
+              </span>
+            </div>
+          ) : (
+            <span className="text-ui-fg-muted">
+              {formatPrice(product.price)}
+            </span>
+          )}
         </div>
         <Text className="txt-compact-small-plus text-ui-fg-subtle">
           Para comprar o item ou obter mais informações, por favor, entre em

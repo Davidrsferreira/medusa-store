@@ -17,7 +17,7 @@ const ProductTabs = ({ product }: ProductTabsProps) => {
 
   return (
     <div className="w-full">
-      <Accordion type="multiple">
+      <Accordion type="multiple" defaultValue={["Informações do produto"]}>
         {tabs.map((tab, i) => (
           <Accordion.Item
             key={i}
