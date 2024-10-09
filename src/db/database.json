@@ -299,32 +299,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "termica",
-      "title": "Caixa térmica 24L",
-      "subtitle": "",
-      "description": "",
-      "handle": "caixa-termica",
-      "thumbnail": "termica1.jpeg",
-      "price": "8",
-      "sale": "5",
-      "images": [
-        {
-          "id": 1,
-          "url": "termica1.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "termica2.jpeg"
-        }
-      ],
-      "material": "Plástico",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "travessaPeq",
       "title": "Travessa pequena",
       "subtitle": "https://www.ikea.com/pt/pt/p/mixtur-travessa-forno-vidro-transparente-60058762/",
@@ -346,31 +320,6 @@
       "length": "18",
       "width": "27",
       "height": "5",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "travessa",
-      "title": "Travessa Oval",
-      "subtitle": "",
-      "description": "",
-      "handle": "travessa",
-      "thumbnail": "traveG1.jpeg",
-      "price": "3.5",
-      "images": [
-        {
-          "id": 1,
-          "url": "traveG1.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "traveG2.jpeg"
-        }
-      ],
-      "material": "Vidro",
-      "length": "",
-      "width": "",
-      "height": "",
       "collectionId": "cozinha",
       "collectionTitle": "Cozinha"
     },
@@ -722,28 +671,6 @@
       "collectionTitle": "Eletrodomésticos"
     },
     {
-      "id": "parafusadeira",
-      "title": "Parafusadeira",
-      "subtitle": "",
-      "description": "Acompanha algumas brocas",
-      "handle": "parafusadeira",
-      "thumbnail": "parafusa.jpeg",
-      "price": "8",
-      "sale": "5",
-      "images": [
-        {
-          "id": 1,
-          "url": "parafusa.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "prod_01J2E3P3ET2XJ8RFAA86X1AG5K",
       "title": "Tábua de cortar",
       "subtitle": "https://www.ikea.com/pt/pt/p/laemplig-tabua-de-cortar-bambu-00309829/",
@@ -891,32 +818,6 @@
       "height": "",
       "collectionId": "plantas",
       "collectionTitle": "Plantas"
-    },
-    {
-      "id": "prod_01J2E2V5MPT8X89ZCZ1A3HZ8HG",
-      "title": "Máquina de café Dolce Gusto",
-      "subtitle": "https://www.dolce-gusto.pt/maquinas-cafe/mini-me-cinza",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "maquina-de-cafe-dolce-gusto",
-      "thumbnail": "1720607151740-WhatsApp Image 2024-07-10 at 11.24.00.jpeg",
-      "price": "35",
-      "sale": "25",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720607151706-WhatsApp Image 2024-07-10 at 11.24.00.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724758043907-minimearcticgreyblack_gallery4_1.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "eletrodomesticos",
-      "collectionTitle": "Eletrodomésticos"
     },
     {
       "id": "chavenas",
@@ -1215,36 +1116,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "prod_01J2DZJ5B99CHZFGYNSQESJASH",
-      "title": "Tapete de pelo curto",
-      "subtitle": "https://www.ikea.com/pt/pt/p/langsted-tapete-pelo-curto-amarelo-30423946/",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "tapete-de-pelo-curto",
-      "thumbnail": "1720603710803-WhatsApp Image 2024-07-10 at 10.25.13.jpeg",
-      "price": "25",
-      "sale": "20",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720603710759-WhatsApp Image 2024-07-10 at 10.25.13.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724772782674-langsted-tapete-pelo-curto-amarelo__0893589_pe726546_s5.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "1724772782674-langsted-tapete-pelo-curto-amarelo__0720587_pe732669_s5.jpeg"
-        }
-      ],
-      "material": "Fibra sintética",
-      "length": "13",
-      "width": "133",
-      "height": "195",
-      "collectionId": "decoracao",
-      "collectionTitle": "Decoração"
-    },
-    {
       "id": "prod_01J2DZ0XA4B322W0EZ5CX7CV04",
       "title": "Manta",
       "subtitle": "https://www.ikea.com/pt/pt/p/humlemott-manta-azul-acinzentado-80549547",
@@ -1405,24 +1276,16 @@
     },
     {
       "id": "forma",
-      "title": "Formas para pão e muffins",
+      "title": "Forma para muffins",
       "subtitle": "",
-      "description": "2€ cada.",
+      "description": "2€",
       "handle": "forma",
-      "thumbnail": "forma1.jpeg",
+      "thumbnail": "forma2.jpeg",
       "price": "2",
       "images": [
         {
-          "id": 1,
-          "url": "forma1.jpeg"
-        },
-        {
           "id": 2,
           "url": "forma2.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "forma3.jpeg"
         }
       ],
       "material": "Metal",
