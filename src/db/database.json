@@ -1275,27 +1275,6 @@
       "collectionTitle": "Plantas"
     },
     {
-      "id": "forma",
-      "title": "Forma para muffins",
-      "subtitle": "",
-      "description": "2€",
-      "handle": "forma",
-      "thumbnail": "forma2.jpeg",
-      "price": "2",
-      "images": [
-        {
-          "id": 2,
-          "url": "forma2.jpeg"
-        }
-      ],
-      "material": "Metal",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
       "id": "prod_01J2BDXXENHFGXH97V0A6DXPP2",
       "title": "Capas para almofada",
       "subtitle": "",
