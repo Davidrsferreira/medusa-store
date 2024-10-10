@@ -524,32 +524,6 @@
       "collectionTitle": "Eletrodomésticos"
     },
     {
-      "id": "prod_01J2E3ZPAJK15X9B9D0CAYTCCJ",
-      "title": "Base giratória",
-      "subtitle": "https://www.ikea.com/pt/pt/p/snudda-base-giratoria-madeira-macica-90074483/",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "base-giratoria",
-      "thumbnail": "1724754295981-snudda-base-giratoria-madeira-macica__0896677_pe610333_s5.jpeg",
-      "price": "5",
-      "sale": "3.5",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720608348432-WhatsApp Image 2024-07-10 at 11.44.24.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724754316014-snudda-base-giratoria-madeira-macica__0896677_pe610333_s5.jpeg"
-        }
-      ],
-      "material": "Madeira",
-      "length": "1",
-      "width": "39",
-      "height": "39",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
       "id": "vasoquadrado",
       "title": "Vaso retangular",
       "subtitle": "https://www.ikea.com/pt/pt/p/bittergurka-vaso-branco-80285787/",
@@ -663,10 +637,6 @@
         },
         {
           "id": 3,
-          "url": "vasos3.jpeg"
-        },
-        {
-          "id": 4,
           "url": "vasos4.jpeg"
         }
       ],
@@ -676,32 +646,6 @@
       "height": "",
       "collectionId": "decoracao",
       "collectionTitle": "Decoração"
-    },
-    {
-      "id": "prod_01J2E3A2GKJSGDB0RGSD8X1FGB",
-      "title": "Air Fryer",
-      "subtitle": "https://www.amazon.es/dp/B0817CTLQ9?ref=ppx_yo2ov_dt_b_product_details&th=1",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "air-fryer",
-      "thumbnail": "1724755470718-650_1200.jpeg",
-      "price": "60",
-      "sale": "45",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720607640035-WhatsApp Image 2024-07-10 at 11.32.08.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724755528073-650_1200.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "eletrodomesticos",
-      "collectionTitle": "Eletrodomésticos"
     },
     {
       "id": "palmeira",
@@ -795,31 +739,6 @@
       "height": "",
       "collectionId": "cozinha",
       "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "prod_01J2E1W7R7BWRY1YYYJPBNMXY8",
-      "title": "Prateleira de madeira",
-      "subtitle": "https://www.ikea.com/pt/pt/p/bekvaem-estante-p-especiarias-choupo-20487175/",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "prateleira-de-madeira",
-      "thumbnail": "1724772304617-bekvaem-estante-p-especiarias-choupo__0980362_pe814907_s5.jpeg",
-      "price": "1.5",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720606138077-WhatsApp Image 2024-07-10 at 11.08.42.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724772314130-bekvaem-estante-p-especiarias-choupo__0980362_pe814907_s5.jpeg"
-        }
-      ],
-      "material": "Madeira",
-      "length": "10",
-      "width": "40",
-      "height": "9",
-      "collectionId": "prateleiras",
-      "collectionTitle": "Prateleiras"
     },
     {
       "id": "prod_01J2E1Q6C6W8G8JWCQ42HXMFT9",
@@ -1479,28 +1398,6 @@
       "height": "",
       "collectionId": "outros",
       "collectionTitle": "Outros"
-    },
-    {
-      "id": "prod_01J1YQTQNHCFGTF17D7TZRWXJH",
-      "title": "Caixa com tampa dobrável",
-      "subtitle": "https://www.ikea.com/pt/pt/p/sortera-caixote-c-tampa-branco-70255899/",
-      "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.\n",
-      "handle": "caixa-com-tampa-dobravel",
-      "thumbnail": "1720092286623-WhatsApp Image 2024-07-04 at 12.20.44.jpeg",
-      "price": "8",
-      "sale": "5",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720092286603-WhatsApp Image 2024-07-04 at 12.20.44.jpeg"
-        }
-      ],
-      "material": "Plástico",
-      "length": "55",
-      "width": "40",
-      "height": "45",
-      "collectionId": "organizacao",
-      "collectionTitle": "Organização"
     }
   ]
 }
