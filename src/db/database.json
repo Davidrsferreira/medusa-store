@@ -214,32 +214,6 @@
       "collectionTitle": "Prateleiras/Armários"
     },
     {
-      "id": "prod_estante",
-      "title": "Estante de madeira",
-      "subtitle": "",
-      "description": "Estante de madeira com 6 prateleiras.",
-      "handle": "estante",
-      "thumbnail": "est1.jpeg",
-      "price": "30",
-      "sale": "15",
-      "images": [
-        {
-          "id": 1,
-          "url": "est1.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "est2.jpeg"
-        }
-      ],
-      "material": "Madeira",
-      "length": "20",
-      "width": "130",
-      "height": "180",
-      "collectionId": "prateleiras",
-      "collectionTitle": "Prateleiras/Armários"
-    },
-    {
       "id": "prod_01J6C80R66JSJD4EQ6TWAY97AK",
       "title": "Travesseiro",
       "subtitle": "https://www.ikea.com/pt/pt/p/rosenskaerm-almofada-ergonomica-costas-lado-90444366/",
@@ -625,28 +599,6 @@
       "height": "",
       "collectionId": "cozinha",
       "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "lapis",
-      "title": "Conjunto Faber-Castell(Nunca usado)",
-      "subtitle": "https://www.amazon.es/dp/B0087OT3FY?ref=ppx_yo2ov_dt_b_fed_asin_title",
-      "description": "Conjunto de lápis com 48 cores",
-      "handle": "lapis",
-      "thumbnail": "lapis.jpeg",
-      "price": "7",
-      "sale": "3",
-      "images": [
-        {
-          "id": 1,
-          "url": "lapis.jpeg"
-        }
-      ],
-      "material": "Madeira",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
     },
     {
       "id": "prod_01J2E3SDG1DC4QX21K70A02KA5",
@@ -1164,48 +1116,6 @@
       "collectionTitle": "Plantas"
     },
     {
-      "id": "rolo",
-      "title": "Rolo de massa",
-      "subtitle": "https://www.ikea.com/pt/pt/p/magasin-rolo-da-massa-76485605/",
-      "description": "",
-      "handle": "rolo",
-      "thumbnail": "rolo.jpeg",
-      "price": "2",
-      "images": [
-        {
-          "id": 1,
-          "url": "rolo.jpeg"
-        }
-      ],
-      "material": "Madeira",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "cozinha§",
-      "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "batedor",
-      "title": "Batedor de claras",
-      "subtitle": "https://www.ikea.com/pt/pt/p/koncis-batedor-aco-inoxidavel-10225952/",
-      "description": "",
-      "handle": "batedor-de-claras",
-      "thumbnail": "fue.jpeg",
-      "price": "1",
-      "images": [
-        {
-          "id": 1,
-          "url": "fue.jpeg"
-        }
-      ],
-      "material": "Metal",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
       "id": "prod_01J2BEFV6FXY31SNE1FKA63S3J",
       "title": "Tapete yoga",
       "subtitle": "",
@@ -1302,28 +1212,6 @@
       "height": "",
       "collectionId": "decoracao",
       "collectionTitle": "Decoração"
-    },
-    {
-      "id": "prod_01J2BD4F68EZE85C3W0X8J4Q7Z",
-      "title": "Yucca Elephantipes - Pata de Elefante",
-      "subtitle": "https://www.ikea.com/pt/pt/p/yucca-elephantipes-planta-yucca-elepantipes-2-troncos-10329308/",
-      "description": "Planta com mais de 2 anos. Acompanha vaso.",
-      "handle": "yucca-elephantipes-pata-de-elefante",
-      "thumbnail": "1724835112378-WhatsApp Image 2024-08-28 at 09.51.36.jpeg",
-      "price": "35",
-      "sale": "25",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724835160701-WhatsApp Image 2024-08-28 at 09.50.22.jpeg"
-        }
-      ],
-      "material": "Natural",
-      "length": "110",
-      "width": "110",
-      "height": "175",
-      "collectionId": "plantas",
-      "collectionTitle": "Plantas"
     },
     {
       "id": "america",
