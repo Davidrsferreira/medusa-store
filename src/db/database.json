@@ -1205,32 +1205,6 @@
       "collectionTitle": "Outros"
     },
     {
-      "id": "prod_01J2175QCZEYMV2S24M59CBCF1",
-      "title": "Mesa com ajuste de altura",
-      "subtitle": "https://www.amazon.es/dp/B0D6RNKP1Q/ref=sspa_dk_detail_1?pd_rd_i=B0D6RS2J7M&pd_rd_w=QTPWE&content-id=amzn1.sym.d9fd07ad-95b5-4079-8602-de55e6918bc7&pf_rd_p=d9fd07ad-95b5-4079-8602-de55e6918bc7&pf_rd_r=HHC2PGK362WMR0HGSK6S&pd_rd_wg=irdgI&pd_rd_r=11fd7857-9bd4-4938-bf8a-99caeb742a16&s=kitchen&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "mesa-com-ajuste-de-altura",
-      "thumbnail": "1724836014877-91QPLKKYPAL._AC_SL1500_.jpeg",
-      "price": "10",
-      "sale": "8",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724836070684-91QPLKKYPAL._AC_SL1500_.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724836070684-91HJZ0MJTGL._AC_SL1500_.jpeg"
-        }
-      ],
-      "material": "Madeira/Metal",
-      "length": "40",
-      "width": "60",
-      "height": "65",
-      "collectionId": "escritorio",
-      "collectionTitle": "Escritório"
-    },
-    {
       "id": "ferro",
       "title": "Ferro de engomar",
       "subtitle": "",
@@ -1372,32 +1346,6 @@
       "height": "",
       "collectionId": "decoracao",
       "collectionTitle": "Decoração"
-    },
-    {
-      "id": "prod_01J1Z7ASHFTG3NSA98D09ASP4N",
-      "title": "Longboard",
-      "subtitle": "",
-      "description": "",
-      "handle": "longboard",
-      "thumbnail": "1724837307091-WhatsApp Image 2024-08-28 at 10.27.56.jpeg",
-      "price": "15",
-      "sale": "10",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724837322775-WhatsApp Image 2024-08-28 at 10.27.56.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724837322776-WhatsApp Image 2024-08-28 at 10.27.56 (1).jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
     }
   ]
 }
