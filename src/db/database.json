@@ -1013,28 +1013,6 @@
       "collectionTitle": "Outros"
     },
     {
-      "id": "prod_01J2DYRNDF49VNE935JZ3A2HPX",
-      "title": "Dracena",
-      "subtitle": "",
-      "description": "Planta com mais de 3 anos. Acompanha vaso.",
-      "handle": "dracena",
-      "thumbnail": "1724773041068-WhatsApp Image 2024-08-27 at 16.36.31.jpeg",
-      "price": "15",
-      "sale": "10",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724773066075-WhatsApp Image 2024-08-27 at 16.36.31.jpeg"
-        }
-      ],
-      "material": "Natural",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "plantas",
-      "collectionTitle": "Plantas"
-    },
-    {
       "id": "prod_01J2BEFV6FXY31SNE1FKA63S3J",
       "title": "Tapete yoga",
       "subtitle": "",
@@ -1152,28 +1130,6 @@
       "height": "",
       "collectionId": "cozinha",
       "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "prod_01J2BC6R1KCJP2332Y0SH5P844",
-      "title": "Monstera deliciosa - Costela de Adão",
-      "subtitle": "",
-      "description": "Planta com mais de 4 anos com vaso e prato novos.",
-      "handle": "monstera-deliciosa-costela-de-adao",
-      "thumbnail": "1724835562369-WhatsApp Image 2024-08-28 at 09.58.44.jpeg",
-      "price": "50",
-      "sale": "40",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724835549060-WhatsApp Image 2024-08-28 at 09.58.44.jpeg"
-        }
-      ],
-      "material": "Natural",
-      "length": "120",
-      "width": "120",
-      "height": "150",
-      "collectionId": "plantas",
-      "collectionTitle": "Plantas"
     },
     {
       "id": "escova",
