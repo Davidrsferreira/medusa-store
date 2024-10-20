@@ -273,31 +273,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "travessaPeq",
-      "title": "Travessa pequena",
-      "subtitle": "https://www.ikea.com/pt/pt/p/mixtur-travessa-forno-vidro-transparente-60058762/",
-      "description": "",
-      "handle": "travessa-pequena",
-      "thumbnail": "trav1.jpeg",
-      "price": "1.5",
-      "images": [
-        {
-          "id": 1,
-          "url": "trav1.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "trav2.jpeg"
-        }
-      ],
-      "material": "Vidro",
-      "length": "18",
-      "width": "27",
-      "height": "5",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
       "id": "prod_01J6C78X2BA22741HC060PWNTF",
       "title": "Prato pequeno",
       "subtitle": "https://www.ikea.com/pt/pt/p/strimmig-prato-gres-azul-10505684/",
@@ -317,31 +292,6 @@
         }
       ],
       "material": "Vidro",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "prod_01J6C70MV1CK05V6541BG6Q493",
-      "title": "Garrafa de vidro",
-      "subtitle": "https://www.ikea.com/pt/pt/p/korken-garrafa-c-tampa-vidro-transparente-30213552/",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "garrafa-de-vidro",
-      "thumbnail": "1724839404888-korken-garrafa-c-tampa-vidro-transparente__0711275_pe728113_s5.jpeg",
-      "price": "1",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724839416185-korken-garrafa-c-tampa-vidro-transparente__0711275_pe728113_s5.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724839416185-korken-garrafa-c-tampa-vidro-transparente__1030468_pe836287_s5.jpeg"
-        }
-      ],
-      "material": "",
       "length": "",
       "width": "",
       "height": "",
