@@ -48,44 +48,6 @@
   ],
   "products": [
     {
-      "id": "iphone11",
-      "title": "iPhone 11 64GB",
-      "subtitle": "",
-      "description": "",
-      "handle": "iphone-11",
-      "thumbnail": "iphone111.jpeg",
-      "price": "250",
-      "sale": "225",
-      "images": [
-        {
-          "id": 1,
-          "url": "iphone111.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "iphone112.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "iphone113.jpeg"
-        },
-        {
-          "id": 4,
-          "url": "iphone114.jpeg"
-        },
-        {
-          "id": 5,
-          "url": "iphone115.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "prod_01J2E6AN6ME5T3CPFWFPVHYRJV",
       "title": "Painel organizador",
       "subtitle": "https://www.ikea.com/pt/pt/p/skadis-placar-branco-00320803",
@@ -93,7 +55,7 @@
       "handle": "painel-organizador",
       "thumbnail": "1724753421229-skadis-placar-branco__1165863_pe890996_s5.jpeg",
       "price": "12",
-      "sale": "8",
+      "sale": "5",
       "images": [
         {
           "id": 1,
@@ -119,7 +81,7 @@
       "handle": "armario-com-gavetas",
       "thumbnail": "arm1.jpeg",
       "price": "120",
-      "sale": "80",
+      "sale": "70",
       "images": [
         {
           "id": 1,
@@ -153,7 +115,7 @@
       "handle": "armario",
       "thumbnail": "arma1.jpeg",
       "price": "90",
-      "sale": "65",
+      "sale": "55",
       "images": [
         {
           "id": 1,
@@ -341,7 +303,7 @@
       "handle": "manequim",
       "thumbnail": "boneco1.jpeg",
       "price": "4",
-      "sale": "2",
+      "sale": "1.5",
       "images": [
         {
           "id": 1,
@@ -388,6 +350,7 @@
       "handle": "cesto-de-palha",
       "thumbnail": "1724753819890-00159547402434____7__1200x1200.jpeg",
       "price": "3",
+      "sale": "1.5",
       "images": [
         {
           "id": 1,
@@ -409,7 +372,7 @@
       "handle": "sandwicheira",
       "thumbnail": "1724754111127-003355533_9774d84c-b3b2-4698-aad2-d9c835977e85.jpeg",
       "price": "10",
-      "sale": "7.5",
+      "sale": "5",
       "images": [
         {
           "id": 1,
@@ -439,7 +402,7 @@
       "handle": "vaso-quadrado",
       "thumbnail": "vasoquadrado1.jpeg",
       "price": "5",
-      "sale": "2.5",
+      "sale": "2",
       "images": [
         {
           "id": 1,
@@ -479,50 +442,6 @@
       "length": "",
       "width": "",
       "height": "",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "prod_01J2E3SDG1DC4QX21K70A02KA5",
-      "title": "Mini batedeira de mão",
-      "subtitle": "https://www.radiopopular.pt/produto/batedeira-electronia-s5?kk=a4c6294-19194685ab5-18927&kgclid=CjwKCAjw8rW2BhAgEiwAoRO5rEpQU5JwyT9GZJpkwQDL5o11YrTkuGYKF8-VllAD6JrYlA28BU598BoCBSMQAvD_BwE&utm_source=kelkoopt&utm_medium=cpc&utm_campaign=KGPDomesticos&utm_term=ELECTRONIA+BATEDEIRA+ELECTRONIA+S5&utm_source_platform=KelkooGroup",
-      "description": "",
-      "handle": "mini-batedeira-de-mao",
-      "thumbnail": "1724771912545-WhatsApp Image 2024-08-27 at 11.38.11.jpeg",
-      "price": "5",
-      "sale": "3",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724755181746-WhatsApp Image 2024-08-27 at 11.38.11.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "eletrodomesticos",
-      "collectionTitle": "Eletrodomésticos"
-    },
-    {
-      "id": "prod_01J2E3P3ET2XJ8RFAA86X1AG5K",
-      "title": "Tábua de cortar",
-      "subtitle": "https://www.ikea.com/pt/pt/p/laemplig-tabua-de-cortar-bambu-00309829/",
-      "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "tabua-de-cortar",
-      "thumbnail": "1724771434376-laemplig-tabua-de-cortar-bambu__0354871_pe547849_s5.jpeg",
-      "price": "6",
-      "sale": "4.5",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724771452034-laemplig-tabua-de-cortar-bambu__0354871_pe547849_s5.jpeg"
-        }
-      ],
-      "material": "Madeira",
-      "length": "56",
-      "width": "46",
-      "height": "2",
       "collectionId": "cozinha",
       "collectionTitle": "Cozinha"
     },
@@ -575,32 +494,6 @@
       "height": "",
       "collectionId": "plantas",
       "collectionTitle": "Plantas"
-    },
-    {
-      "id": "prod_01J2E34336X5W7BV9V7VT4MYM7",
-      "title": "Máquina de café",
-      "subtitle": "https://www.worten.pt/produtos/maquina-de-cafe-filtro-becken-bdcm-2179-12-chavenas-5768485?gad_source=1&gclid=CjwKCAjw4ri0BhAvEiwA8oo6FwXBBi9Onqhp0j5v-vtbq1E92S81eX93dZLW3EGCuF7Y3O58wThmxhoC79AQAvD_BwE",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "maquina-de-cafe",
-      "thumbnail": "1720607444048-WhatsApp Image 2024-07-10 at 11.29.27.jpeg",
-      "price": "15",
-      "sale": "10",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720607444030-WhatsApp Image 2024-07-10 at 11.29.27.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724757794904-7ef2cf1fb98f4c143cb0b7eb069b421430a61c4c.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "eletrodomesticos",
-      "collectionTitle": "Eletrodomésticos"
     },
     {
       "id": "cactodenatal",
@@ -675,27 +568,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "italiana",
-      "title": "Cafeteira italiana pequena",
-      "subtitle": "",
-      "description": "",
-      "handle": "cafeteira-italiana",
-      "thumbnail": "italiana.jpeg",
-      "price": "3",
-      "images": [
-        {
-          "id": 1,
-          "url": "italiana.jpeg"
-        }
-      ],
-      "material": "Metal",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
       "id": "prod_01J2E18BXGDXD3M2J09X11ECP0",
       "title": "Cabide de parede",
       "subtitle": "https://www.ikea.com/pt/pt/p/kartotek-cabide-c-5-ganchos-pinho-cinz-80347078/",
@@ -703,7 +575,7 @@
       "handle": "cabide-de-parede",
       "thumbnail": "1720605486939-kartotek-cabide-c-5-ganchos-pinho-cinz__0909040_pe649346_s5 (1).jpeg",
       "price": "8",
-      "sale": "6",
+      "sale": "4",
       "images": [
         {
           "id": 1,
@@ -733,7 +605,7 @@
       "handle": "candeeiro-de-teto",
       "thumbnail": "1720605215474-WhatsApp Image 2024-07-10 at 10.48.17.jpeg",
       "price": "8",
-      "sale": "6",
+      "sale": "5",
       "images": [
         {
           "id": 1,
@@ -801,7 +673,7 @@
       "handle": "cactos",
       "thumbnail": "cact1.jpeg",
       "price": "5",
-      "sale": "3",
+      "sale": "2.5",
       "images": [
         {
           "id": 1,
@@ -874,27 +746,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "faca",
-      "title": "Faca",
-      "subtitle": "https://www.continente.pt/produto/faca-chef-20cm-platinum-kasa-7641920.html?gad_source=1&gclid=Cj0KCQjwxsm3BhDrARIsAMtVz6MItNWD0j_hnxIC6oSMQNy0JQgU8KYmY45fy-w1_-EV6jWelF4fegsaAhx4EALw_wcB",
-      "description": "",
-      "handle": "faca",
-      "thumbnail": "faca.jpeg",
-      "price": "5",
-      "images": [
-        {
-          "id": 1,
-          "url": "faca.jpeg"
-        }
-      ],
-      "material": "Metal",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
-    },
-    {
       "id": "prod_01J2DZ0XA4B322W0EZ5CX7CV04",
       "title": "Manta",
       "subtitle": "https://www.ikea.com/pt/pt/p/humlemott-manta-azul-acinzentado-80549547",
@@ -902,7 +753,7 @@
       "handle": "manta",
       "thumbnail": "1720603145515-WhatsApp Image 2024-07-10 at 10.15.51.jpeg",
       "price": "10",
-      "sale": "8",
+      "sale": "6",
       "images": [
         {
           "id": 1,
@@ -928,7 +779,7 @@
       "handle": "tapete-yoga",
       "thumbnail": "1720518700216-WhatsApp Image 2024-07-09 at 10.50.44.jpeg",
       "price": "10",
-      "sale": "7",
+      "sale": "5",
       "images": [
         {
           "id": 1,
@@ -975,7 +826,7 @@
       "handle": "sansevieria-espada-de-sao-jorge",
       "thumbnail": "1724774041349-WhatsApp Image 2024-08-27 at 16.53.00.jpeg",
       "price": "25",
-      "sale": "18",
+      "sale": "15",
       "images": [
         {
           "id": 1,
@@ -1040,65 +891,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "escova",
-      "title": "Escova de engomar a vapor",
-      "subtitle": "",
-      "description": "",
-      "handle": "escova",
-      "thumbnail": "vapor1.jpeg",
-      "price": "10",
-      "images": [
-        {
-          "id": 1,
-          "url": "vapor1.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "vapor2.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "vapor3.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
-      "id": "ferro",
-      "title": "Ferro de engomar",
-      "subtitle": "",
-      "description": "",
-      "handle": "ferro",
-      "thumbnail": "ferro1.jpeg",
-      "price": "8",
-      "sale": "6",
-      "images": [
-        {
-          "id": 1,
-          "url": "ferro1.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "ferro2.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "ferro3.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "prod_01J215ZRCQQWG94EEKZMXXV3VW",
       "title": "Secretária",
       "subtitle": "https://www.ikea.com/pt/pt/p/lagkapten-tampo-branco-10460666/",
@@ -1149,7 +941,7 @@
       "handle": "cadeira-steelcase",
       "thumbnail": "1720173433331-WhatsApp Image 2024-07-05 at 10.41.53.jpeg",
       "price": "150",
-      "sale": "120",
+      "sale": "80",
       "images": [
         {
           "id": 1,
@@ -1171,7 +963,7 @@
       "handle": "cadeira-staples",
       "thumbnail": "1724836768820-WhatsApp Image 2024-08-28 at 10.16.39.jpeg",
       "price": "40",
-      "sale": "20",
+      "sale": "15",
       "images": [
         {
           "id": 1,
