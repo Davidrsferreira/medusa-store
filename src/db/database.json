@@ -48,6 +48,28 @@
   ],
   "products": [
     {
+      "id": "fone",
+      "title": "Fones JBL",
+      "subtitle": "https://www.fnac.pt/Auscultadores-Bluetooth-JBL-Tune-720-Preto-Auscultadores-Hi-Fi-Auscultadores-sem-fios/a10861460",
+      "description": "Fones Bluetooth JBL Tune 720.",
+      "handle": "fones",
+      "thumbnail": "fone.jpeg",
+      "price": "35",
+      "sale": "25",
+      "images": [
+        {
+          "id": 1,
+          "url": "fone.jpeg"
+        }
+      ],
+      "material": "",
+      "length": "",
+      "width": "",
+      "height": "",
+      "collectionId": "outros",
+      "collectionTitle": "Outros"
+    },
+    {
       "id": "prod_01J2E6AN6ME5T3CPFWFPVHYRJV",
       "title": "Painel organizador",
       "subtitle": "https://www.ikea.com/pt/pt/p/skadis-placar-branco-00320803",

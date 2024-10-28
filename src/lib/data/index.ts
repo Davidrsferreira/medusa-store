@@ -42,7 +42,7 @@ export const getProductsByCollectionId = async function (
   collectionId: string
 ): Promise<Product[]> {
   if (collectionId === "all") {
-    return database.products as unknown as Product[]
+    return database.products.sort((a, b) => Number(b.price) - Number(a.price)) as unknown as Product[]
   }
 
   return database.products.filter(
