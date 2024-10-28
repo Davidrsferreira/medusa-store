@@ -772,28 +772,6 @@
       "collectionTitle": "Outros"
     },
     {
-      "id": "prod_01J2BEFV6FXY31SNE1FKA63S3J",
-      "title": "Tapete yoga",
-      "subtitle": "",
-      "description": "Imagem ilustrativa. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "tapete-yoga",
-      "thumbnail": "1720518700216-WhatsApp Image 2024-07-09 at 10.50.44.jpeg",
-      "price": "10",
-      "sale": "5",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720518700202-WhatsApp Image 2024-07-09 at 10.50.44.jpeg"
-        }
-      ],
-      "material": "Espuma",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "corremesa",
       "title": "Toalha corre mesa",
       "subtitle": "https://www.ikea.com/pt/pt/p/svartsenap-corre-mesa-azul-esverdeado-60533057/",
