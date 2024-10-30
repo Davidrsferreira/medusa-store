@@ -53,17 +53,17 @@
       "subtitle": "https://www.ikea.com/pt/pt/p/skadis-placar-branco-00320803",
       "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
       "handle": "painel-organizador",
-      "thumbnail": "1724753421229-skadis-placar-branco__1165863_pe890996_s5.jpeg",
+      "thumbnail": "painel2.jpeg",
       "price": "12",
       "sale": "5",
       "images": [
         {
           "id": 1,
-          "url": "1720610804904-WhatsApp Image 2024-07-10 at 12.25.09.jpeg"
+          "url": "painel2.jpeg"
         },
         {
           "id": 2,
-          "url": "1724753440309-skadis-placar-branco__1165863_pe890996_s5.jpeg"
+          "url": "painel.jpeg"
         }
       ],
       "material": "Metal",
@@ -176,17 +176,17 @@
       "subtitle": "https://www.ikea.com/pt/pt/p/strimmig-prato-gres-azul-10505684/",
       "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
       "handle": "prato-pequeno",
-      "thumbnail": "1724839789286-strimmig-prato-gres-azul__0735138_pe739772_s5.jpeg",
+      "thumbnail": "prato2.jpeg",
       "price": "2.5",
       "sale": "1",
       "images": [
         {
           "id": 1,
-          "url": "1724839797086-strimmig-prato-gres-azul__0735138_pe739772_s5.jpeg"
+          "url": "prato2.jpeg"
         },
         {
           "id": 2,
-          "url": "1724839797086-strimmig-prato-gres-azul__1383722_pe962652_s5.jpeg"
+          "url": "prato.jpeg"
         }
       ],
       "material": "Vidro",
@@ -202,17 +202,17 @@
       "subtitle": "",
       "description": "Temos duas opções de tapete.",
       "handle": "tapete-para-casa-de-banho",
-      "thumbnail": "1724751222009-TENDER-WC.jpg",
+      "thumbnail": "tapetebanho.jpeg",
       "price": "3",
       "sale": "1.5",
       "images": [
         {
           "id": 1,
-          "url": "1724751212332-WhatsApp Image 2024-08-27 at 10.26.14 (1).jpeg"
+          "url": "tapetebanho2.jpeg"
         },
         {
           "id": 2,
-          "url": "1724751280859-WhatsApp Image 2024-08-27 at 10.26.14.jpeg"
+          "url": "tapetebanho3.jpeg"
         }
       ],
       "material": "Espuma/Algodão",
@@ -228,17 +228,17 @@
       "subtitle": "",
       "description": "",
       "handle": "prateleira-pequena",
-      "thumbnail": "1724753077429-WhatsApp Image 2024-08-27 at 10.26.13 (1).jpeg",
+      "thumbnail": "prateleira.jpeg",
       "price": "3",
       "sale": "1.5",
       "images": [
         {
           "id": 1,
-          "url": "1724753087134-WhatsApp Image 2024-08-27 at 10.26.13 (1).jpeg"
+          "url": "prateleira.jpeg"
         },
         {
           "id": 2,
-          "url": "1724753087134-WhatsApp Image 2024-08-27 at 10.26.13.jpeg"
+          "url": "prateleira2.jpeg"
         }
       ],
       "material": "Plástico",
@@ -254,16 +254,16 @@
       "subtitle": "",
       "description": "Temos duas unidades.",
       "handle": "cestinho-de-bambu",
-      "thumbnail": "1724753597416-WhatsApp Image 2024-08-27 at 10.25.55.jpeg",
+      "thumbnail": "cestinho.jpeg",
       "price": "2",
       "images": [
         {
           "id": 1,
-          "url": "1724753635143-WhatsApp Image 2024-08-27 at 10.25.55.jpeg"
+          "url": "cestinho.jpeg"
         },
         {
           "id": 2,
-          "url": "1724753635143-WhatsApp Image 2024-08-27 at 10.25.47.jpeg"
+          "url": "cestinho2.jpeg"
         }
       ],
       "material": "Bambu",
@@ -305,12 +305,12 @@
       "subtitle": "https://www.ikea.com/pt/pt/p/cissan-suporte-p-guardanapos-jacinto-de-agua-60334289/",
       "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
       "handle": "suporte-para-guardanapos",
-      "thumbnail": "1720609413574-WhatsApp Image 2024-07-10 at 12.03.14.jpeg",
+      "thumbnail": "guardanapo.jpeg",
       "price": "2",
       "images": [
         {
           "id": 1,
-          "url": "1720609413564-WhatsApp Image 2024-07-10 at 12.03.14.jpeg"
+          "url": "guardanapo.jpeg"
         }
       ],
       "material": "Palha",
@@ -473,17 +473,17 @@
       "subtitle": "",
       "description": "",
       "handle": "conjunto-com-2-galheteiros",
-      "thumbnail": "1724772378035-WhatsApp Image 2024-08-27 at 10.25.46.jpeg",
+      "thumbnail": "azeite.jpeg",
       "price": "5",
       "sale": "3",
       "images": [
         {
           "id": 1,
-          "url": "1724772392037-WhatsApp Image 2024-08-27 at 10.25.44.jpeg"
+          "url": "azeite.jpeg"
         },
         {
           "id": 2,
-          "url": "1724772392037-WhatsApp Image 2024-08-27 at 10.25.46.jpeg"
+          "url": "azeite2.jpeg"
         }
       ],
       "material": "Vidro/Metal",
@@ -499,21 +499,17 @@
       "subtitle": "https://www.ikea.com/pt/pt/p/kartotek-cabide-c-5-ganchos-pinho-cinz-80347078/",
       "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
       "handle": "cabide-de-parede",
-      "thumbnail": "1720605486939-kartotek-cabide-c-5-ganchos-pinho-cinz__0909040_pe649346_s5 (1).jpeg",
+      "thumbnail": "cabide2.jpeg",
       "price": "8",
       "sale": "4",
       "images": [
         {
           "id": 1,
-          "url": "1720605486915-kartotek-cabide-c-5-ganchos-pinho-cinz__0909040_pe649346_s5 (1).jpeg"
+          "url": "cabide2.jpeg"
         },
         {
           "id": 2,
-          "url": "1724772548742-kartotek-cabide-c-5-ganchos-pinho-cinz__0683161_ph147789_s5.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "1724772588649-kartotek-cabide-c-5-ganchos-pinho-cinz__0909017_pe635290_s5.jpeg"
+          "url": "cabide.jpeg"
         }
       ],
       "material": "Pinho/Aço",
@@ -529,13 +525,13 @@
       "subtitle": "https://www.ikea.com/pt/pt/p/skurup-candeeiro-suspenso-preto-80407114/",
       "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
       "handle": "candeeiro-de-teto",
-      "thumbnail": "1720605215474-WhatsApp Image 2024-07-10 at 10.48.17.jpeg",
+      "thumbnail": "lustre.jpeg",
       "price": "8",
       "sale": "5",
       "images": [
         {
           "id": 1,
-          "url": "1720605215458-WhatsApp Image 2024-07-10 at 10.48.17.jpeg"
+          "url": "lustre.jpeg"
         }
       ],
       "material": "Plástico de polipropileno",
@@ -652,17 +648,17 @@
       "subtitle": "https://www.ikea.com/pt/pt/p/humlemott-manta-azul-acinzentado-80549547",
       "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
       "handle": "manta",
-      "thumbnail": "1720603145515-WhatsApp Image 2024-07-10 at 10.15.51.jpeg",
+      "thumbnail": "manta.jpeg",
       "price": "10",
       "sale": "6",
       "images": [
         {
           "id": 1,
-          "url": "1720603145495-WhatsApp Image 2024-07-10 at 10.15.51.jpeg"
+          "url": "manta.jpeg"
         },
         {
           "id": 2,
-          "url": "1724772876454-humlemott-manta-azul-acinzentado__1146913_pe883169_s5.jpeg"
+          "url": "manta2.jpeg"
         }
       ],
       "material": "Malha macia",
@@ -703,13 +699,13 @@
       "subtitle": "https://www.ikea.com/pt/pt/p/sansevieria-planta-mistura-de-especies-50597549/",
       "description": "Planta com mais de 2 anos. Acompanha vaso.",
       "handle": "sansevieria-espada-de-sao-jorge",
-      "thumbnail": "1724774041349-WhatsApp Image 2024-08-27 at 16.53.00.jpeg",
+      "thumbnail": "espada.jpeg",
       "price": "25",
       "sale": "15",
       "images": [
         {
           "id": 1,
-          "url": "1724774054082-WhatsApp Image 2024-08-27 at 16.53.00.jpeg"
+          "url": "espada.jpeg"
         }
       ],
       "material": "Natural",
@@ -725,20 +721,20 @@
       "subtitle": "",
       "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
       "handle": "capas-para-almofada",
-      "thumbnail": "1724834555999-colorida.jpeg",
+      "thumbnail": "colorida.jpeg",
       "price": "3",
       "images": [
         {
           "id": 1,
-          "url": "1724834571819-colorida.jpeg"
+          "url": "colorida.jpeg"
         },
         {
           "id": 2,
-          "url": "1724834603083-amarela.jpeg"
+          "url": "amarela.jpeg"
         },
         {
           "id": 3,
-          "url": "1724834603083-branca.jpeg"
+          "url": "branca.jpeg"
         }
       ],
       "material": "Tecido",
@@ -775,13 +771,13 @@
       "subtitle": "https://www.ikea.com/pt/pt/p/lagkapten-tampo-branco-10460666/",
       "description": "Imagem ilustrativa. Entre em contato para obter imagens reais do produto ou qualquer outra informação.\n\n",
       "handle": "secretaria",
-      "thumbnail": "1720174248302-WhatsApp Image 2024-07-05 at 11.09.08.jpeg",
+      "thumbnail": "secretaria.jpeg",
       "price": "15",
       "sale": "10",
       "images": [
         {
           "id": 1,
-          "url": "1720174255217-WhatsApp Image 2024-07-05 at 11.09.08.jpeg"
+          "url": "secretaria.jpeg"
         }
       ],
       "material": "Madeira/Metal",
@@ -818,13 +814,13 @@
       "subtitle": "https://es.steelcase.com/products/reply-air?variant=42447364096198",
       "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
       "handle": "cadeira-steelcase",
-      "thumbnail": "1720173433331-WhatsApp Image 2024-07-05 at 10.41.53.jpeg",
+      "thumbnail": "cadeiraboa.jpeg",
       "price": "150",
       "sale": "80",
       "images": [
         {
           "id": 1,
-          "url": "1720173433317-WhatsApp Image 2024-07-05 at 10.41.53.jpeg"
+          "url": "cadeiraboa.jpeg"
         }
       ],
       "material": "Tecido",
@@ -840,13 +836,13 @@
       "subtitle": "",
       "description": "Cadeira com ajuste de altura, inclinação e encosto de braços",
       "handle": "cadeira-staples",
-      "thumbnail": "1724836768820-WhatsApp Image 2024-08-28 at 10.16.39.jpeg",
+      "thumbnail": "cadeiraruin.jpeg",
       "price": "40",
       "sale": "15",
       "images": [
         {
           "id": 1,
-          "url": "1724836779893-WhatsApp Image 2024-08-28 at 10.16.39.jpeg"
+          "url": "cadeiraruin.jpeg"
         }
       ],
       "material": "Pele",
@@ -862,17 +858,17 @@
       "subtitle": "https://www.ikea.com/pt/pt/p/vaexbo-moldura-p-8-fotos-branco-40256621/",
       "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
       "handle": "porta-retratos",
-      "thumbnail": "1720108870966-WhatsApp Image 2024-07-04 at 16.59.04.jpeg",
+      "thumbnail": "moldura2.jpeg",
       "price": "4",
       "sale": "2",
       "images": [
         {
           "id": 1,
-          "url": "1720108876934-WhatsApp Image 2024-07-04 at 16.59.04.jpeg"
+          "url": "moldura2.jpeg"
         },
         {
           "id": 2,
-          "url": "1724836873934-vaexbo-moldura-p-8-fotos-branco__0767925_pe754349_s5.jpeg"
+          "url": "moldura.jpeg"
         }
       ],
       "material": "Madeira",
