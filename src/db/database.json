@@ -48,28 +48,6 @@
   ],
   "products": [
     {
-      "id": "fone",
-      "title": "Fones JBL",
-      "subtitle": "https://www.fnac.pt/Auscultadores-Bluetooth-JBL-Tune-720-Preto-Auscultadores-Hi-Fi-Auscultadores-sem-fios/a10861460",
-      "description": "Fones Bluetooth JBL Tune 720.",
-      "handle": "fones",
-      "thumbnail": "fone.jpeg",
-      "price": "35",
-      "sale": "25",
-      "images": [
-        {
-          "id": 1,
-          "url": "fone.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
-    },
-    {
       "id": "prod_01J2E6AN6ME5T3CPFWFPVHYRJV",
       "title": "Painel organizador",
       "subtitle": "https://www.ikea.com/pt/pt/p/skadis-placar-branco-00320803",
@@ -154,28 +132,6 @@
       "height": "179",
       "collectionId": "prateleiras",
       "collectionTitle": "Prateleiras/Armários"
-    },
-    {
-      "id": "prod_01J6C80R66JSJD4EQ6TWAY97AK",
-      "title": "Travesseiro",
-      "subtitle": "https://www.ikea.com/pt/pt/p/rosenskaerm-almofada-ergonomica-costas-lado-90444366/",
-      "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "travesseiro",
-      "thumbnail": "1724840443241-rosenskaerm-almofada-ergonomica-costas-lado__0722542_pe733642_s5.jpeg",
-      "price": "5",
-      "sale": "3",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724840449032-rosenskaerm-almofada-ergonomica-costas-lado__0722542_pe733642_s5.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "outros",
-      "collectionTitle": "Outros"
     },
     {
       "id": "prod_01J6C7R6EN1VF8AAXRYAM1KEJ2",
@@ -363,58 +319,6 @@
       "height": "7",
       "collectionId": "cozinha",
       "collectionTitle": "Cozinha"
-    },
-    {
-      "id": "prod_01J2E4N9P2XMX80H07G5GFX6M7",
-      "title": "Cesto de palha",
-      "subtitle": "https://www.elcorteingles.pt/casa-e-decoracao/A26576877-cesta-com-asas-jacinto-de-agua-el-corte-ingles/?parentCategoryId=5007.15919512024&_gl=1*18ijamj*_up*MQ..&gclid=CjwKCAjw8rW2BhAgEiwAoRO5rBl0vbdkJ3uFs6ktu4UUaaZf_wpAD03GMF9PRCvkGsWnLqWztK4OEhoCvbEQAvD_BwE",
-      "description": "Imagem do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "cesto-de-palha",
-      "thumbnail": "1724753819890-00159547402434____7__1200x1200.jpeg",
-      "price": "3",
-      "sale": "1.5",
-      "images": [
-        {
-          "id": 1,
-          "url": "1724753825323-00159547402434____7__1200x1200.jpeg"
-        }
-      ],
-      "material": "Palha",
-      "length": "10",
-      "width": "20",
-      "height": "20",
-      "collectionId": "organizacao",
-      "collectionTitle": "Organização"
-    },
-    {
-      "id": "prod_01J2E47Q266BCME3AYKT707SEA",
-      "title": "Sandwicheira",
-      "subtitle": "https://www.auchan.pt/pt/tecnologia-e-eletrodomesticos/eletrodomesticos/pequenos-eletrodomesticos/pequeno-almoco/sandwicheiras/sandwicheira-qilive-600093118-3-em-1-q.5469/3355533.html",
-      "description": "Imagens do fabricante. Entre em contato para obter imagens reais do produto ou qualquer outra informação.",
-      "handle": "sandwicheira",
-      "thumbnail": "1724754111127-003355533_9774d84c-b3b2-4698-aad2-d9c835977e85.jpeg",
-      "price": "10",
-      "sale": "5",
-      "images": [
-        {
-          "id": 1,
-          "url": "1720608611356-WhatsApp Image 2024-07-10 at 11.49.51.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "1724754122172-003355533_9774d84c-b3b2-4698-aad2-d9c835977e85.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "1724754122172-003355533_d99158ec-bc42-46f1-a035-3790065ea010.jpeg"
-        }
-      ],
-      "material": "Plástico/Metal",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "eletrodomesticos",
-      "collectionTitle": "Eletrodomésticos"
     },
     {
       "id": "vasoquadrado",
@@ -640,31 +544,6 @@
       "height": "150",
       "collectionId": "iluminacao",
       "collectionTitle": "Iluminação"
-    },
-    {
-      "id": "gin",
-      "title": "Kit Gin",
-      "subtitle": "",
-      "description": "Kit Gin com colher, dosador e taça (Taça Beefeater de brinde).",
-      "handle": "kit-gin",
-      "thumbnail": "gin1.jpeg",
-      "price": "4",
-      "images": [
-        {
-          "id": 1,
-          "url": "gin1.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "gin2.jpeg"
-        }
-      ],
-      "material": "",
-      "length": "",
-      "width": "",
-      "height": "",
-      "collectionId": "cozinha",
-      "collectionTitle": "Cozinha"
     },
     {
       "id": "mixer",
