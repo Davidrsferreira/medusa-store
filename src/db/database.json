@@ -74,40 +74,6 @@
       "collectionTitle": "Organização"
     },
     {
-      "id": "prod_armario1",
-      "title": "Armário de madeira",
-      "subtitle": "",
-      "description": "Armário de madeira com 3 gavetas e cabideiro",
-      "handle": "armario-com-gavetas",
-      "thumbnail": "arm1.jpeg",
-      "price": "120",
-      "sale": "70",
-      "images": [
-        {
-          "id": 1,
-          "url": "arm1.jpeg"
-        },
-        {
-          "id": 2,
-          "url": "arm2.jpeg"
-        },
-        {
-          "id": 3,
-          "url": "arm3.jpeg"
-        },
-        {
-          "id": 4,
-          "url": "arm4.jpeg"
-        }
-      ],
-      "material": "Madeira",
-      "length": "50",
-      "width": "175",
-      "height": "179",
-      "collectionId": "prateleiras",
-      "collectionTitle": "Prateleiras/Armários"
-    },
-    {
       "id": "prod_armario2",
       "title": "Armário de madeira",
       "subtitle": "",
