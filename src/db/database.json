@@ -732,28 +732,6 @@
       "collectionTitle": "Cozinha"
     },
     {
-      "id": "prod_01J215ZRCQQWG94EEKZMXXV3VW",
-      "title": "Secretária",
-      "subtitle": "https://www.ikea.com/pt/pt/p/lagkapten-tampo-branco-10460666/",
-      "description": "Imagem ilustrativa. Entre em contato para obter imagens reais do produto ou qualquer outra informação.\n\n",
-      "handle": "secretaria",
-      "thumbnail": "secretaria.jpeg",
-      "price": "15",
-      "sale": "10",
-      "images": [
-        {
-          "id": 1,
-          "url": "secretaria.jpeg"
-        }
-      ],
-      "material": "Madeira/Metal",
-      "length": "60",
-      "width": "120",
-      "height": "80",
-      "collectionId": "escritorio",
-      "collectionTitle": "Escritório"
-    },
-    {
       "id": "lirio",
       "title": "Lírio da paz",
       "subtitle": "",
